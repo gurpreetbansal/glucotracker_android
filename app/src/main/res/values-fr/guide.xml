@@ -1,0 +1,17 @@
+<resources>
+    <string name="userInstruction">Instruction de l\'utilisateur</string>
+    <string name="powerManagement">Gestion de l\'alimentation</string>
+    <string name="notices">Avis</string>
+    <string name="productBasics">Produits de base</string>
+    <string name="userInstructionData">
+      Vigory Diary, Assistant Santé est utile pour obtenir de nombreuses données sur la santé du corps. \n\nIl est non-invasive, de sorte que vous ne ressentirez aucune douleur pendant le test. Vous pouvez également l\'utiliser plusieurs fois par jour pour garder une trace de votre santé du corps. \n \nthrough innombrables expériences et la combinaison de la technologie de capteur intégré en laboratoire, Vigory Diary est également de recueillir diverses données sur la santé.
+    </string>
+    <string name="powerManagementData">1) Appuyez sur le bouton d\'alimentation pour activer Vigory Diary. \n \n2) L\'appareil s\'arrête automatiquement en 3 minutes sans utiliser. \n \n3) Après le test, veuillez appuyer sur le bouton d\'alimentation environ 3 secondes pour arrêter. \n \n4) Le test n\'est pas autorisé pendant le chargement. \n \n5) Lorsque la batterie est inférieure à 30%, s\'il vous plaît rechargez-le avant le test.
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary">Agenda des adolescentes</string>
+    <string name="yourReminderIsSet">Votre rappel est réglé</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="bluetoothDetection">Bluetooth Detection...</string>
+    <string name="waitForInstruction">Please wait for instruction before inserting finger</string>
+    <string name="commplainToEnvironmentalCondition">Compliant To Environmental Condition</string>
+    <string name="pleaseInsertFinger">Please insert finger into finger clip sensor</string>
+    <string name="checkHealthRegularly">Check health regularly</string>
+    <string name="stayCalm">Please stay calm, and keep current posture</string>
+    <string name="partcipateInPhysicalActivity">Participate in 30 minutes of physical activity on most days of the week.</string>
+    <string name="manageStress">Manage stress through activities you find relaxing</string>
+    <string name="eatWell">Eat Well \n Follow below diet order and portion \n 2 Portion Vegetables \n 2 Portion Protein \n 1 Portion Carbohydrates</string>
+    <string name="getSleep">Get enough sleep</string>
+    <string name="stayHydrated">Stay hydrated</string>
+    <string name="somethingWentWrong">Something went wrong in testing, Please test again</string>
+    <string name="startTest">Start test</string>
+    <string name="relax">Relax !</string>
+    <string name="whenAllResultFound">when all results found 0 :</string>
+    <string name="Device_Connection_Failure">Device Connection Failure</string>
+    <string name ="Device_power_on">Please secure device power is on.</string>
+    <string name="pleaseOnTheBluetooth">Please turn on the bluetooth.</string>
+    <string name="yesText">Yes</string>
+    <string name="noText">No</string>
+    <string name="notConnectedText">Not_Connected</string>
+    <string name="pleaseWaitFor3Minutes">Please wait for 5 minutes for another test!</string>
+    <string name="pleaseChooseMealFirst">Please choose meal first!</string>
+    <string name="turnedOff">Turned off</string>
+
+</resources>

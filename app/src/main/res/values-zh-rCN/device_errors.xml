@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">蓝牙侦测失败</string>
+    <string name="secureBluetoothParingDoneCorrectly">请确保蓝牙配对正确</string>
+    <string name="dontApplyPressure">放轻松! \n 勿重压传感器</string>
+    <string name="temperatureLow">请用手指插入到手指夹型传感器\n环境温度太低, 可能会影响测试结果, 谢谢!</string>
+    <string name="temperatureHigh">请用手指插入到手指夹型传感器\n环境温度太高, 可能会影响测试结果, 谢谢!</string>
+    <string name="environmentDry">请用手指插入到手指夹型传感器\n环境太干燥,可能会影响测试结果, 谢谢!</string>
+    <string name="humidityHigh">请用手指插入到手指夹型传感器\n环境湿度太高, 可能会影响测试结果, 谢谢!</string>
+    <string name="ERBW">手指未正确伸入!</string>
+    <string name="ERAD">错误的数据收集，可能探针被nit插入正确。</string>
+    <string name="ERTT">手指感测有误，可能导致错误的数据收集。</string>
+    <string name="fingerTemperatureLow">手指温度太低, 可能会影响测试结果</string>
+    <string name="fingerTemperatureHigh">手指温度太高, 可能会影响测试结果</string>
+    <string name= "ERRO">手指已移开!</string>
+    <string name= "CCFRCS">手指未伸入!</string>
+    <string name="deviceOnCharging">请在使用前重置设备！</string>
+    <string name="deviceNotFound">未找到设备</string>
+    <string name="deviceNotResponding">设备未响应测试。请重置设备，然后重试！</string>
+    <string name="deviceBatteryLow">设备电源低。请在测试前充电。</string>
+    <string name="checkSensor">检查传感器</string>
+    <string name="testResultIncorrect">测试数值不正确, 请重新测试, 将手指伸到底并放轻松,勿下压传感器</string>
+    <string name="returenBackInSecond">返回（计数器）秒！</string>
+    <string name="deviceDisconnected">设备未连接！</string>
+    <string name="fingerInserted">手指已伸入</string>
+    <string name="fingerRemoved">手指已移开!</string>
+</resources>

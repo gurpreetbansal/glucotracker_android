@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_shape_light_white_radius_3dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/glucoseView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+            android:gravity="center"
+            android:clickable="true">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/glucoseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/glucose"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/glucoseTextViewLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/glucoseTextView"
+                android:background="@drawable/tab_bar_icon_selected_state" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pulseView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:clickable="true"
+            android:gravity="center">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/pulseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/pulse"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/pulseTextViewLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/pulseTextView"
+                android:background="@drawable/tab_bar_icon_selected_state" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bloodFlowView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".9"
+            android:clickable="true"
+            android:gravity="center">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/bloodFlowTextView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/bloodFlowText2"
+                android:singleLine="true"
+
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/bloodFlowTextViewLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/bloodFlowTextView"
+                android:background="@drawable/tab_bar_icon_selected_state" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/hemoglobiinView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/hemoglobinTextView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/hemoglobinText"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/hemoglobinTextViewLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/hemoglobinTextView"
+                android:background="@drawable/tab_bar_icon_selected_state" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sp02View"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:clickable="true"
+            android:gravity="center">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/sp02TextView"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+                android:text="@string/sp02Text"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/sp02TextViewLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/sp02TextView"
+                android:background="@drawable/tab_bar_icon_selected_state" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

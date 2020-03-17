@@ -1,0 +1,18 @@
+<resources>
+    <string name="userInstruction">User Instruction</string>
+    <string name="powerManagement">Power Management</string>
+    <string name="notices">Notices</string>
+    <string name="productBasics">Product Basics</string>
+    <string name="userInstructionData">
+       Vigory Diary, Health Assistant is useful for obtaining many body health data.\n\nIt is non-invasive, so you will not feel any pain during testing. You can also use it several times a day to keep track of your body health.\n\nThrough countless laboratory-based experiments and combination of integrated sensor technology, Vigory Diary is also to collect various health data.
+    </string>
+    <string name="powerManagementData">1)Press power button to switch on Vigory Diary. \n\n2)Device will automatically shut down in 3 minutes without using.\n\n3)After testing, please press power button around 3 seconds to shut down. \n\n4)Testing is not allowed during charging.\n\n5)When battery is lower than 30%, please recharge it before testing.
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary">Vigori Diary</string>
+    <string name="yourReminderIsSet">Kindly remind you of</string>
+    
+
+</resources>

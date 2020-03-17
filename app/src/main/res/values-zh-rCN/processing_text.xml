@@ -1,0 +1,27 @@
+<resources>
+   <string name="bluetoothDetection">蓝牙侦测...</string>
+   <string name="waitForInstruction">请等待提示再伸入手指</string>
+   <string name="commplainToEnvironmentalCondition">符合环境条件</string>
+   <string name="pleaseInsertFinger">请用手指插入到手指夹型传感器</string>
+   <string name="checkHealthRegularly">定期健康检查</string>
+   <string name="stayCalm">请保持冷静、保持当前的姿态</string>
+   <string name="partcipateInPhysicalActivity">每天运动30分钟</string>
+   <string name="manageStress">从事抒压活动，让自己多放松</string>
+   <string name="eatWell">正确饮食\n依照下列饮食顺序和份量\n2份高纤蔬菜\n2份蛋白质\n1份碳水化合物</string>
+   <string name="getSleep">维持充足的睡眠</string>
+   <string name="stayHydrated">补充水份</string>
+   <string name="somethingWentWrong">出错的测试, 请再次测试</string>
+   <string name="startTest">开始测试</string>
+   <string name="relax">放松!</string>
+   <string name="whenAllResultFound">当所有的结果发现 0:</string>
+   <string name="Device_Connection_Failure">设备连接失败</string>
+   <string name ="Device_power_on">请确保设备电源已打开。</string>
+   <string name="pleaseOnTheBluetooth">请打开蓝牙。</string>
+   <string name="yesText">是</string>
+   <string name="noText">不</string>
+   <string name="notConnectedText">未连接</string>
+   <string name="pleaseWaitFor3Minutes">请等待 5 分钟, 另一种测试!</string>
+   <string name="pleaseChooseMealFirst">请先选择用餐状态!</string>
+   <string name="turnedOff">关闭</string>
+
+</resources>

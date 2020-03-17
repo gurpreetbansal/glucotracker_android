@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">
+您最近的测量</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">血红蛋白信息：\n\n
+1.  血红蛋白值低：在女性中更常见，也通常称为贫血。\n
+2.  在症状如头晕，疲劳，沥青粪便或血便，建议去医院进一步检查。\n
+3.	建议消耗更多富含铁和蛋白质的食物，以及维生素C，它有助于铁吸收。\n
+4.	血红蛋白值高：血液集中，更难流动。建议去医院进一步检查。\n\n
+        健康指数参考：\n\n
+1.	血糖水平\n
+o   空腹/餐前：3.9〜6.1mmol / L（70〜110mg / dl）\n
+o	餐后2小时：3.9〜7.8mmol / L（70〜140mg / dl）\n
+2.	脉搏\n
+o	60-100bpm \n
+3.  血流速度\n
+o	220〜440 AU \n
+4.  血红蛋白\n
+o   男：120-160g / L\n
+o	女：110-150g / L\n
+5.	血氧饱和度 \n
+94％-100％\n\n
+        其他健康指数数据：\n\n
+        血糖信息： \n\n
+        当BGL值太低或太高时，\n
+1.  首先检查智能传感器是否在适当的测试条件下使用。\n
+2.  血糖不应低于100mg / dL，建议通过吃糖果和曲奇饼补充身体糖，以避免低血糖。\n
+3.  血糖不应高于300mg / dL，确保没有症状如头晕或呕吐发生。喝大量的水，一个小时后再次测试。\n
+4.  如果血糖高于300 mg / dL，建议去医院进一步检查。\n\n
+        脉搏信息：\n\n
+当脉搏值为低或高时，\n
+1.  脉搏值低：低于60bpm，常见于房室传导阻滞或颅内压升高。\n
+2.	脉搏值高：超过100bpm，常见于发烧，贫血或冠心病。\n
+3.  它通常伴有其他身体症状，建议去医院进一步检查。\n\n
+        血流速度信息：\n\n
+        1. BFV值被表示为通过血管的一部分流动的单位时间，也称为“体积率”。.\n
+2.  动脉血流受收缩和舒张心跳的影响。收缩心跳加速血流量，舒张心搏减慢血流量。 \n
+3.  当血管弹性时，血流较慢;当血管变成填充物时，血流将显着更快。 \n
+4.  我们可以使用从该测试得到的值来比较具有相似年龄的人的血流，并且因此推断该人的血管是否比实际的人年龄更快地老化。\n\n
+如何保持你的血管弹性：\n\n
+1.  保持不断锻炼。\n
+2.  保持平衡的营养摄入，如蛋白质和维生素。\n
+3.  调节三个高点：血糖，血压和血脂。\n
+4.	每天喝足够的水，以减少血管粘性。\n\n
+
+        血氧饱和度（SpO2）信息：\n\n
+ 1.小于94percent：缺氧。\n
+ 2.低于90％：低氧血症。\n
+ 3.在SpO2小于90％的情况下，并显示浑浊的胸部症状，疲劳和呼吸困难，建议去医院检查。
+    </string>
+    <string name="pdfFile">pdf文件</string>
+    <string name="esserHealthCareTechnology">宇朔健康数位科技有限公司</string>
+    <string name="healthAlert">健康提醒</string>
+    <string name="applicationPdf">应用程序/ pdf</string>
+    <string name="pdfPulse">脉搏 -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">血流速度- </string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">血氧饱和度-</string>
+    <string name="pdfHemoglobin">血红蛋白-</string>
+    <string name="pdfBloodGlucose">血糖-</string>
+    <string name="pdfHello">你好</string>
+    <string name="resultScrenshot">结果截图</string>
+    <string name="applicationExcel">应用程序/excel</string>
+    <string name="excelFileText">历史数据</string>
+</resources>

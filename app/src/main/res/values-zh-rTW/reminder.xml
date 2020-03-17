@@ -1,0 +1,47 @@
+<resources>
+  // reminder string
+  <string name="index">index</string>
+  <string name="reminderName">reminderName</string>
+  <string name="reminderTime">reminderTime</string>
+  <string name="selectTime">選擇時間</string>
+  <string name="timeText">time</string>
+  <string name="hours">hours</string>
+  <string name="minutes">minutes</string>
+  <string name="reminderType">reminderType</string>
+
+  //result string
+  <string name="responseText">響應</string>
+  <string name="fromDate">開始日期不能大於日期</string>
+  <string name="dateNotSame">開始日期與開始日期不能相同</string>
+
+  //bluetooth string
+  <string name="nameText">名稱：</string>
+  <string name="addressText">地址：</string>
+
+  //string
+  <string name="trueText">true</string>
+  <string name="falseText">false</string>
+  <string name="amText">AM</string>
+  <string name="pmText">PM</string>
+  <string name="usernameText">用戶名</string>
+  <string name="passwordText">密碼</string>
+  <string name="usernameAndPassNotMatch">用戶名和密碼不匹配</string>
+  <string name="sureWantToExit">確定要離開?</string>
+  <string name="enterCorrectDataInSettings">請輸入正確數值</string>
+  <string name="couldnotSendMail">無法發送電子郵件。請先執行測試！</string>
+  <string name="reminder">保健提醍</string>
+  <string name="sureDelete">確定要刪除記錄?</string>
+  <string name="MetabolismText">代謝交換數值僅供參考並非診斷數據</string>
+  <string name="healthReference1"> 健康參考資訊</string>
+
+  //Excel string
+  <string name="firstSheet">第一頁</string>
+  <string name="dateExcel">日期</string>
+  <string name="timeExcel">時間</string>
+  <string name="glucoseMgExcel">血糖（mmol/L）</string>
+  <string name="glucosemg">血糖 (mg/dl)</string>
+  <string name="pulseExcel">脈搏</string>
+  <string name="spo2Excel">血氧飽合度</string>
+  <string name="hemoglobinGExcel">血紅蛋白(g/L)</string>
+  <string name="bloodFlowExcel">血流速度</string>
+</resources>

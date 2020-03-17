@@ -1,0 +1,19 @@
+<resources>
+    <string name="userInstruction">ユーザーインストラクション</string>
+    <string name="powerManagement">電源管理</string>
+    <string name="notices">お知らせ</string>
+    <string name="productBasics">掲載</string>
+    <string name="userInstructionData">
+
+Vigori日記、保健アシスタントは、多くの身体健康データを取得するのに便利です。\n \n非侵襲的なので、テスト中に痛みを感じることはありません。また、あなたの体の健康状態を追跡するために、それを数回使用することもできます。\n \n無数の実験室ベースの実験と統合センサー技術の組み合わせにより、さまざまな健康データを収集することもできます。
+    </string>
+    <string name="powerManagementData">1) Virogi日記の電源ボタンを押してください。\n\n2) Vigori日記は使用されない場合に３分後に自動的にシャットダウンします。\n\n3) テストが完了した後、オフ約3秒間電源ボタンを押し。\n\n4) 充電中は計測出来ません。\n\n5) パワーが30％未満であると、十分に使用する前に充電してください。
+
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary">日記思春期の少女</string>
+    <string name="yourReminderIsSet">リマインダーが設定されています</string>
+
+</resources>

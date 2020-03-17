@@ -1,0 +1,339 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <CustomControl.TextViewIconStyle
+            android:id="@+id/backIcon"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/leftArrow"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <CustomControl.TextViewGothamMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/historyText"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/action_bar_view"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar_view"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/shareImageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/red_share" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <include
+                    layout="@layout/tab_bar_view_history_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight=".5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight=".5"
+                    android:background="@drawable/button_shape_rectangle_grey_rounded_corners"
+                    android:orientation="horizontal">
+
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/dayTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/day_selected_state"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/dayText"
+                        android:textColor="@android:color/black" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/weekTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/day_selected_state"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/weekText"
+                        android:textColor="@android:color/black" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/monthTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/day_selected_state"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/monthText"
+                        android:textColor="@android:color/black" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/periodTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/day_selected_state"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/periodText"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/columnsView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight=".4"
+                android:background="@drawable/button_shape_light_white"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape_transparent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/frontTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".4"
+                        android:background="@drawable/button_shape_transparent"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/lowestText"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/lowestValueTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight=".6"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape_transparent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/centerTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".4"
+                        android:background="@drawable/button_shape_transparent"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/highestText"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/highestValueTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight=".6"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_shape_transparent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/backTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".4"
+                        android:background="@drawable/button_shape_transparent"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/averageText"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <CustomControl.TextViewGothamBook
+                        android:id="@+id/averageValueTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight=".6"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/viewsLayout">
+
+                <CustomControl.BarChartCustomView
+                    android:id="@+id/chart_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+
+                <CustomControl.HistoryListCustomView
+                    android:id="@+id/historyListFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/optionsView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".15"
+                android:visibility="visible">
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/mLargeUnitButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_icon_button_history_state"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/mMolText"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/mSmallUnitButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_icon_button_history_state"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/mMgdlText"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/chartButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_icon_button_history_state"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/chartText"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/listButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_icon_button_history_state"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/listText"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/dateTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1.4"
+                    android:background="@drawable/left_icon_button_history_state"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

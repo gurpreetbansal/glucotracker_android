@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">您最近的測量</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">血紅蛋白信息：\n \n
+1.血紅蛋白值低：在女性中更常見，也通常稱為貧血\n
+2.在頭暈，疲勞，焦慮症或血便等症狀時，建議前往醫院進一步檢查。\n
+3.建議消耗更多富含鐵和蛋白質的食物，以及維生素C，它有助於鐵的吸收\n
+4.血紅蛋白值高：血液集中，更難流動。建議前往醫院進行進一步檢查。\n \n
+        健康指數參考：\n \n
+血糖水平\n
+o空腹/餐前：3.9〜6.1 mmol / L（70〜110 mg / dl）\n
+o餐後2小時：3.9〜7.8mmol / L（70〜140mg / dl）\n
+脈搏\n
+o 60-100 bpm \n
+3.血流速度\ n
+o 220〜440 AU \n
+血紅蛋白\n
+o男性：120-160g / L \n
+o女性：110-150g / L \n
+5.血氧飽和度\n
+94％ -  100％\n \n
+       其他健康指數數據：\n \n
+血糖信息：\n \n
+當BGL值太低或太高時，\n
+1.首先檢查智能傳感器是否在適當的測試條件下使用\n
+2.血糖不應低於100mg / dL，建議通過吃糖果和餅乾補充身體糖，以避免低血糖。\n
+3.血糖不應超過300mg / dL，確保沒有出現頭暈或嘔吐等症狀。喝大量的水，一小時後再次測試。\n
+4.如果血糖高於300 mg / dL，建議前往醫院進行進一步檢查。\n \n
+       脈搏信息：\n \n
+當脈搏值為低或高時，\n
+1.脈搏值低：低於60bpm，常見於房室傳導阻滯或顱內壓增高。\n
+2.脈搏值高：超過100bpm，常見於發熱，貧血或冠心病\n
+3.通常伴有其他身體症狀，建議前往醫院進一步檢查。\n \n
+        血流速度信息：\n \n
+        BFV值被表示為通過血管的一部分流動的單位時間，也稱為“體積率”
+2.動脈血流受收縮和舒張心跳的影響。收縮心跳加速血流量，舒張心搏減慢血流量。 \n
+3.當血管彈性時，血流量較慢;當血管變成填充物時，血流將顯著更快。 \n
+4.我們可以使用從該測試得到的值來比較相似年齡的人的血流，因此推斷人血管的年齡是否比實際人的年齡快。\n \n
+如何保持你的血管彈性：\n \n
+1.保持不斷的鍛煉。\n
+2.保持平衡的營養攝入，如蛋白質和維生素
+3.調節三個高點：血糖，血壓和血脂
+4.每天喝足夠的水以減少血管粘滯。\n \n
+
+血氧飽和度（SpO2）信息：\n \n
+ 1.不足94％：缺氧。\n
+ 2.低於90％：低氧血症\n
+ 3.如果SpO2低於90％，並表現出胸悶，疲勞和呼吸困難的症狀，建議前往醫院檢查。
+    </string>
+    <string name="pdfFile">pdf文件</string>
+    <string name="esserHealthCareTechnology">宇朔健康数位科技有限公司</string>
+    <string name="healthAlert">健康提醒</string>
+    <string name="applicationPdf">application/pdf</string>
+    <string name="pdfPulse">脈搏 -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">血流速度 - </string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">血氧飽和度 -</string>
+    <string name="pdfHemoglobin">血紅蛋白 -</string>
+    <string name="pdfBloodGlucose">血糖 -</string>
+    <string name="pdfHello">你好</string>
+    <string name="resultScrenshot">結果屏幕截圖</string>
+    <string name="applicationExcel">application/excel</string>
+    <string name="excelFileText">歷史數據</string>
+
+</resources>

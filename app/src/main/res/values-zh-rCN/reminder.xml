@@ -1,0 +1,47 @@
+<resources>
+// 提醒字符串
+ <string name="index">索引</string>
+ <string name="reminderName">reminderName</string>
+ <string name="reminderTime">reminderTime</string>
+ <string name="selectTime">选择时间</string>
+ <string name="timeText">时间</string>
+ <string name="hours">小时</string>
+ <string name="minutes">分钟</string>
+ <string name="reminderType">reminderType</string>
+
+//结果字符串的
+ <string name="responseText">反应</string>
+ <string name="fromDate">起始日期不能大于起始日期</string>
+ <string name="dateNotSame">日期\’ t 相同的日期</string>
+
+/蓝牙/字符串
+ <string name="nameText">名称:</string>
+ <string name="addressText">地址:</string>
+
+//字符串
+ <string name="trueText">true</string>
+ <string name="falseText">false</string>
+ <string name="amText">AM</string>
+ <string name="pmText">PM</string>
+ <string name="usernameText">用户名</string>
+ <string name="passwordText">密码</string>
+ <string name="usernameAndPassNotMatch">用户名和密码没有 tt 匹配</string>
+ <string name="sureWantToExit">确定要离开?</string>
+ <string name="enterCorrectDataInSettings">请输入正确数值</string>
+ <string name="couldnotSendMail">无法发送电子邮件。请先执行测试！</string>
+ <string name="reminder">保健提醒</string>
+ <string name="sureDelete">确定要删除记录?</string>
+ <string name="MetabolismText">代谢交换数值仅供参考并非诊断数据</string>
+ <string name="healthReference1">健康参考信息</string>
+
+//Excel 字符串
+ <string name="firstSheet">第一页</string>
+ <string name="dateExcel">日期</string>
+ <string name="timeExcel">时间</string>
+ <string name="glucoseMgExcel">血糖(mmol/L)</string>
+ <string name="glucosemg">血糖(mg/dl)</string>
+ <string name="pulseExcel">脈搏</string>
+ <string name="spo2Excel">血氧飽合度</string>
+ <string name="hemoglobinGExcel">血红蛋白(g/L)</string>
+ <string name="bloodFlowExcel">血流速度</string>
+</resources>

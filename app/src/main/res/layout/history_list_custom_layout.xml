@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/history_list_header_row_item"
+       android:id="@+id/header_row"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </include>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_toRightOf="@id/header_row"
+        android:layout_toEndOf="@id/header_row"
+        android:id="@+id/historyListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_shape_transparent"
+        android:scrollbars="none" />
+</merge>

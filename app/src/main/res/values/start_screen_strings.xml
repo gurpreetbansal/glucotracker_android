@@ -1,0 +1,7 @@
+<resources>
+    <string name="usageNotice">GlucoTracker Usage Notice</string>
+    <string name="fulldayOfVitality">Full day of vitality begins with self-health monitoring.</string>
+    <string name="thisProductNotAMedicalDevice">This monitoring data is just for monitoring your daily status and can not replace the doctor’s visit, counseling, diagnosis or recommended treatment.\n\n
+If the health management numerical abnormalities, please immediately go to the hospital for professional detection.</string>
+    <string name="acceptButtonText">Accept</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="enterUsername">一意のユーザー名を入力</string>
+    <string name="enterPassword">パスワードを入力する</string>
+    <string name="validUsername">有効なユーザー名を入力</string>
+    <string name="validPassword">パスワードの長さは8文字を超える必要があります</string>
+    <string name="enterGender">性別を選択して下さい</string>
+    <string name="selectAge">あなたは12歳以上でなければなりません</string>
+    <string name="enterCorrectHeight">高さは50〜250cmの範囲でなければなりません</string>
+    <string name="enterCorrectWeight">重量は30〜200kgの範囲でなければなりませ</string>
+    <string name="enterCorrectGlucose">グルコースは、3.1〜17.5mmol / lの範囲内でなければならない</string>
+    <string name="selectHeight">高さを選択</string>
+    <string name="selectWeight">重量を入力してください</string>
+    <string name="selectgender">性別を選択して下さい</string>
+    <string name="enterYourHeight">高さを入力</string>
+    <string name="enterYourWeight">重量を入力してくださいt</string>
+    <string name="enterYourAge">年齢を入力</string>
+    <string name="selectGlucose">グルコースに入る</string>
+    <string name="enterGlucose">グルコースに入る</string>
+    <string name="usernameExists">ユーザー名は既に存在します</string>
+
+
+    //signup string
+    <string name="seven">07</string>
+    <string name="doubleZero">00</string>
+    <string name="breakfastText">朝食</string>
+    <string name="timeEight">08:00</string>
+    <string name="eight">08</string>
+    <string name="lunchText">昼食</string>
+    <string name="dinnerText">夕食</string>
+    <string name="sleepingText">就寝時</string>
+    <string name="othersText">他の</string>
+    <string name="timeOne">1:00</string>
+    <string name="timeTen">10:00</string>
+    <string name="timeFive">05:00</string>
+    <string name="oneText">01</string>
+    <string name="ten">10</string>
+    <string name="five">05</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="562.52px" height="562.52px" viewBox="0 0 562.52 562.52" enable-background="new 0 0 562.52 562.52" xml:space="preserve">
+<g id="Layer_3">
+	<g>
+		<g id="Insert_Finger_6_">
+			<defs>
+				<circle id="SVGID_1_" cx="281.26" cy="281.26" r="281.26"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<circle clip-path="url(#SVGID_2_)" fill="#E51E25" cx="281.26" cy="281.26" r="281.26"/>
+			<g clip-path="url(#SVGID_2_)">
+				<g>
+					<path fill="none" stroke="#EAEAEA" stroke-width="9.5824" stroke-miterlimit="10" d="M314.012,286.02h64.675
+						c0,0,38.895,4.148,38.895,48.497c0,28.349-11.528,48.497-38.895,48.497h-98.273"/>
+					<g>
+						<rect x="180.78" y="349.028" fill="#FFFFFF" width="99.526" height="63.425"/>
+						<rect x="180.78" y="412.453" fill="#E5E5E5" width="99.527" height="13.1"/>
+					</g>
+				</g>
+				
+					<line fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" stroke-dasharray="6.8993" x1="295.604" y1="257.371" x2="295.604" y2="319.312"/>
+				<g>
+					<path fill="none" stroke="#EAEAEA" stroke-width="9.5824" stroke-miterlimit="10" d="M303.049,188.786H183.833
+						c0,0-38.895,4.148-38.895,48.497c0,28.349,11.529,48.496,38.895,48.496h94.534"/>
+					<g>
+						<g>
+							<rect x="347.792" y="169.949" fill="#5D6771" width="26.255" height="41.929"/>
+							<rect x="347.792" y="162.261" fill="#A4A9AD" width="26.255" height="41.928"/>
+							<rect x="355.27" y="188.672" fill="#343F49" width="13.126" height="7.026"/>
+							<rect x="355.27" y="170.751" fill="#343F49" width="13.126" height="7.027"/>
+						</g>
+						<rect x="301.656" y="154.574" fill="#FFFFFF" width="46.136" height="57.302"/>
+						<rect x="301.656" y="211.876" fill="#E5E5E5" width="46.136" height="11.835"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Status_bar">
+</g>
+<g id="Guides">
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<resources>
+  // reminder string
+  <string name="index">index</string>
+  <string name="reminderName">reminderName</string>
+  <string name="reminderTime">reminderTime</string>
+  <string name="selectTime">Sélectionnez Heure</string>
+  <string name="timeText">time</string>
+  <string name="hours">hours</string>
+  <string name="minutes">minutes</string>
+  <string name="reminderType">reminderType</string>
+
+
+  //result string
+  <string name="responseText">réponse</string>
+  <string name="fromDate">De date ne peut pas être supérieure à ce jour</string>
+  <string name="dateNotSame">Date d\'entrée ne peut même que ce jour</string>
+
+  //bluetooth string
+  <string name="nameText">prénom:</string>
+  <string name="addressText">Adresse:</string>
+
+  //string
+  <string name="trueText">true</string>
+  <string name="falseText">false</string>
+  <string name="amText">AM</string>
+  <string name="pmText">PM</string>
+  <string name="usernameText">Nom d\'utilisateur</string>
+  <string name="passwordText">mot de passe</string>
+  <string name="usernameAndPassNotMatch">Nom d\'utilisateur et mot de passe n\'correspondance</string>
+  <string name="sureWantToExit">Êtes-vous sûr de vouloir quitter?</string>
+  <string name="enterCorrectDataInSettings">Entrer les données correctes</string>
+  <string name="couldnotSendMail">Impossible d\'envoyer un e-mail.</string>
+  <string name="reminder">Rappels</string>
+  <string name="sureDelete">Voulez-vous vraiment supprimer l\'enregistrement?</string>
+  <string name="MetabolismText">La valeur d\'échange du métabolisme est seulement une référence, pas une donnée de diagnostic</string>
+  <string name="healthReference1">Référence de la Santé</string>
+
+  //Excel string
+  <string name="firstSheet">Première feuille</string>
+  <string name="dateExcel">DATE</string>
+  <string name="timeExcel">TEMPS</string>
+  <string name="glucoseMgExcel">GLUCOSE (mmol/L)</string>
+  <string name="glucosemg">GLUCOSE (mg/dl)</string>
+  <string name="pulseExcel">IMPULSION</string>
+  <string name="spo2Excel">SpO2</string>
+  <string name="hemoglobinGExcel">HEMOGLOBINE (g/L)</string>
+  <string name="bloodFlowExcel">FLUX SANGUIN</string>
+</resources>

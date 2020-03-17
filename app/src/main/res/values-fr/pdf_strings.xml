@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">
+Votre récente mesure à</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">informations Hémoglobine:\n\n
+1. valeur Hémoglobine est faible. Plus souvent vu chez les femmes, aussi communément appelée anémie \n
+2. Dans des symptômes tels que des étourdissements, la fatigue, goudronneux des selles, selles ou de sang, il est recommandé d\'aller à l\'hôpital pour un examen plus approfondi. \n
+3. Il est recommandé de consommer plus d\'aliments riches en protéines et riches en fer, et également de la vitamine-C, il aide à l\'absorption du fer. \n
+4. valeur Hémoglobine est élevée: Le sang est concentré, et plus difficiles à écouler. Il est recommandé d\'aller à l\'hôpital pour un examen plus approfondi. \n \n
+        Santé IndexReference: \n\n
+1. Niveau de glycémie \n
+o Jeûne / preprandial: 3,9 ~ 6,1 mmol / L (70 ~ 110 mg / dl) \n
+o 2 h postprandiale: 3,9 ~ 7,8 mmol / L (70 ~ 140 mg / dl) \n
+2. Pulse \n
+o 60-100 bpm \n
+3. Circulation sanguine Velocity \n
+o 220 ~ 440 UA \n
+4. Hémoglobine \n
+o homme: 120-160 g / L \n
+o femme: 110-150 g / L \n
+5. Oxygen Saturation \n
+94% - 100% \n\n
+       Autres données Index Santé: \n\n
+informations Glucose: \n \n
+Lorsque la valeur BGL est trop faible ou trop élevée, \n
+1. Tout d\'abord vérifier que le capteur intelligent est utilisé dans des conditions de test appropriées. \n
+2. La glycémie doit pas être inférieure à 100 mg / dL, il est recommandé de reconstituer le sucre du corps en mangeant morceau de bonbons et de biscuits pour éviter l\'hypoglycémie. \n
+3. La glycémie ne doit pas être au-dessus 300mg / dL, assurez-vous pas de symptômes tels que des vertiges ou des vomissements se produisent. Buvez beaucoup d\'eau et tester à nouveau après une heure. \n
+4. Si la glycémie est supérieure à 300 mg / dL, il est recommandé d\'aller l\'hôpital pour un examen plus approfondi. \n\n
+        informations d\'impulsion: \n\n
+Lorsque la valeur d\'impulsion est faible ou élevé, \n
+1. Valeur d\'impulsion est faible:. Inférieure à 60 bpm, souvent vu dans le bloc auriculo-ventriculaire ou une augmentation de la pression intracrânienne \n
+2. Valeur d\'impulsion est élevé. Plus de 100bpm, souvent vu dans la fièvre, l\'anémie, ou de maladies cardiaques coronariennes \n
+3. Il est généralement compagnée avec d\'autres symptômes physiques, il est recommandé d\'aller l\'hôpital pour un examen plus approfondi. \n \n
+        Sang informations de flux de vitesse: \n\n
+        1. La valeur VFB est désignée comme unité de temps écoulée à travers une section du vaisseau sanguin, appelée aussi "débit volumique". \n
+2. flux sanguin artériel est affecté par du rythme cardiaque systolique et diastolique. rythme cardiaque systolique accélère le débit sanguin, et le rythme cardiaque diastolique ralentit le débit sanguin. \n
+3. Lorsqu\'un vaisseau sanguin est élastique, la circulation sanguine est plus lent; Quand un vaisseau sanguin devient substance, le flux sanguin sera nettement plus rapide. \n
+4. Nous pouvons utiliser les valeurs issues de ces tests pour comparer le flux de sang d\'une personne du même âge, et donc en déduire que la personne\'s vaisseau sanguin est vieilli plus vite que la personne réelle\'âge s. \n\n
+Comment garder vos vaisseaux sanguins élastique: \n\n
+1. Maintenir l\'exercice constant. \n
+2. Maintenir l\'apport nutritionnel équilibré telles que les protéines et les vitamines. \n
+3. Réglementer trois sommets:. Glucose dans le sang, la pression artérielle, et la graisse de sang \n
+4. Buvez suffisamment d\'eau par jour pour réduire le vaisseau sanguin adhésivité. \n\n
+
+       Saturation en oxygène (SpO2) Information: \n\n
+ 1.Less que 94percent:. Le manque d\'oxygène \n
+ 2.Less que 90percent:. Hypoxémie \n
+ 3.In cas de SpO2 moins 90percent, et montre des symptômes de la poitrine étouffante, la fatigue et la difficulté à respirer, il est recommandé d\'aller à l\'hôpital pour examen.
+    </string>
+    <string name="pdfFile">fichier PDF</string>
+    <string name="esserHealthCareTechnology">ESER Health Care Digital Technology Co Ltd</string>
+    <string name="healthAlert">alerte Santé</string>
+    <string name="applicationPdf">application / pdf</string>
+    <string name="pdfPulse">Impulsion -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">Circulation sanguine Velocity -</string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">Saturation d\'oxygène -</string>
+    <string name="pdfHemoglobin">hémoglobine -</string>
+    <string name="pdfBloodGlucose">Glucose sanguin -</string>
+    <string name="pdfHello">Bonjour</string>
+    <string name="resultScrenshot">Résultat Capture d\'écran</string>
+    <string name="applicationExcel">application/excel</string>
+    <string name="excelFileText">Données historiques</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<resources>
+    <string-array name="navigationItems">
+        <item name="profile">Profiel</item>
+        <item name="bluetooth">Bluetooth</item>
+        <item name="editUser">Profiel bewerken</item>
+        <item name="unitSettings">Eenheid instellingen</item>
+        <item name="reminderSettings">Alarm</item>
+        <item name="MeasurementRecord">Meetgeschiedenis</item>
+        <item name="healthReference">Gezondheidsreferentie</item>
+        <item name="manageAccounts">Accounts beheren</item>
+        <item name="switchUser">Verander van gebruiker</item>
+        <item name="signOut">Uitloggen</item>
+    </string-array>
+    <string-array name="guideItems">
+        <item name="userInstruction1">Gebruiksaanwijzing</item>
+        <item name="power1">Energiebeheer</item>
+        <item name="notices1">Punten van aandacht</item>
+        <item name="ProductBasis1">Product Basics</item>
+    </string-array>
+
+    <string-array name="genderItems">
+        <item name="male">Man</item>
+        <item name="female">Vrouw</item>
+    </string-array>
+
+   <string-array name="healthReminderItems">
+       <item name="fastingBlood">Nuchtere meting</item>
+       <item name="breakfast">Ontbijt</item>
+       <item name="lunch">Lunch</item>
+       <item name="dinner">Avondeten</item>
+       <item name="sleepings">slapen</item>
+       <item name="others">Overig</item>
+   </string-array>
+
+    <string-array name="time">
+        <item name="time1">07:00</item>
+        <item name="time2">08:00</item>
+        <item name="time3">01:00</item>
+        <item name="time4">08:00</item>
+        <item name="time5">10:00</item>
+        <item name="time6">05:00</item>
+    </string-array>
+
+    <string-array name="captureImageItems">
+        <item name="captureImage">CAMERA</item>
+        <item name="library">GALERIJ</item>
+        <item name="cancel">ANNULEER</item>
+    </string-array>
+
+</resources>

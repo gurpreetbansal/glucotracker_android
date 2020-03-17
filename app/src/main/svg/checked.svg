@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="59.438px" height="59.438px" viewBox="0 0 59.438 59.438" enable-background="new 0 0 59.438 59.438" xml:space="preserve">
+<g id="Layer_3">
+	<g>
+		<g>
+			<g>
+				<text transform="matrix(1 0 0 1 -327.2632 47.3647)"><tspan x="0" y="0" fill="#010101" font-family="'GothamBook'" font-size="51.75">Measure</tspan><tspan x="214.761" y="0" fill="#010101" font-family="'GothamBook'" font-size="51.75" letter-spacing="18">	</tspan><tspan x="248.4" y="0" fill="#010101" font-family="'GothamBook'" font-size="51.75" letter-spacing="25">				</tspan><tspan x="414" y="0" fill="#010101" font-family="'GothamBook'" font-size="51.75">Medication</tspan></text>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path fill="#E51E25" d="M40.155,19.436L24.802,34.807l-5.495-5.495c-0.968-0.967-2.519-0.967-3.487,0
+						c-0.967,0.968-0.967,2.52,0,3.487l7.247,7.247c0.475,0.475,1.114,0.73,1.735,0.73c0.62,0,1.26-0.237,1.734-0.73L43.642,22.94
+						c0.967-0.967,0.967-2.519,0-3.487C42.692,18.467,41.122,18.467,40.155,19.436z"/>
+				</g>
+			</g>
+			<path fill="none" stroke="#E51E25" stroke-width="4.6" stroke-miterlimit="10" d="M57.107,48.373
+				c0,4.832-3.916,8.748-8.747,8.748H11.102c-4.832,0-8.748-3.916-8.748-8.748V11.115c0-4.831,3.916-8.747,8.748-8.747H48.36
+				c4.831,0,8.747,3.916,8.747,8.747V48.373z"/>
+		</g>
+	</g>
+</g>
+<g id="Status_bar">
+</g>
+<g id="Guides">
+</g>
+</svg>

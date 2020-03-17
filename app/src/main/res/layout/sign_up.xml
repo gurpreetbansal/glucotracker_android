@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CustomControl.TextViewIconStyle
+            android:id="@+id/backIcon"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="@string/leftArrow"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/changePictureView">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/signUpImageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/dp_plus" />
+
+
+            <ImageView
+                android:id="@+id/changeImageButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignRight="@id/signUpImageView"
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                android:src="@drawable/camera_icon" />
+        </RelativeLayout>
+
+        <CustomControl.EditTextGothamBook
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/transparent"
+            android:hint="@string/userName"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@id/passwordEditText"
+            android:singleLine="true"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <CustomControl.EditTextGothamBook
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:hint="@string/password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <CustomControl.TextViewGothamBook
+            android:id="@+id/genderTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:hint="@string/selectGender"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColor="@color/blue"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterAgeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/enterAge"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="2"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/rangeOfAge" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <CustomControl.TextViewGothamMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/physiologicalInfo"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterHeightEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@android:color/transparent"
+                android:hint="@string/enterHeight"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:singleLine="true"
+
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/cm"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterHeightEditText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@android:color/transparent"
+                android:hint="@string/enterHeight"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:imeOptions="actionDone"
+
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="@string/inch"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <CustomControl.TextViewGothamBook
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="end"
+            android:text="@string/heightRange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterWeightEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@android:color/transparent"
+                android:hint="@string/enterWeight"
+               android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:singleLine="true"
+
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/kgText"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterWeightEditText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:background="@android:color/transparent"
+                android:hint="@string/enterWeight"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/lbText"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <CustomControl.TextViewGothamBook
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="end"
+            android:text="@string/weightRange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <CustomControl.TextViewGothamMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/medicalDiagnosis"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <CustomControl.TextViewGothamBook
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/diabetesType" />
+
+        <LinearLayout
+            android:id="@+id/diagnosisLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/normal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/normalButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/normal" />
+
+            <Button
+                android:id="@+id/typeButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/type2" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/glucoseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/glucoseEditView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="@android:color/transparent"
+                android:hint="@string/glu"
+                android:imeOptions="actionDone"
+                android:textColor="@color/blue"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="@string/mmol"
+                android:textColor="@color/black"
+                 />
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/enterGlucoseEditText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="@android:color/transparent"
+                android:hint="@string/glu"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:imeOptions="actionDone"
+                android:textColor="@color/blue"
+                android:singleLine="true"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="@string/mg"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+
+        <CustomControl.TextViewGothamBook
+            android:id="@+id/glucoseRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="end"
+            android:visibility="gone"
+            android:text="@string/glucoseRange" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/havingNoFoodText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/havingNoFood"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/red"/>
+        <TextView
+            android:id="@+id/setAsNormalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updateAtleastOnceAWeek"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/create"
+
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/alreadyHaveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alreadyAccount"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/signInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/alreadyHaveAccount"
+                android:clickable="true"
+                android:text="@string/signIn"
+                android:textColor="@color/blue"
+
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

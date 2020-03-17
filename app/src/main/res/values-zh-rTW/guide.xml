@@ -1,0 +1,18 @@
+<resources>
+    <string name="userInstruction">使用說明</string>
+    <string name="powerManagement">電量管理</string>
+    <string name="notices">注意</string>
+    <string name="productBasics">產品說明</string>
+    <string name="userInstructionData">
+     優活日記 – 取得多項健康數值的好幫手。\n\n採用此無創工具，在量測過程中不會有任何不適。有助您一天多次量測來監控自己的健康。\n\n經過無數的實驗研究及先進的感測器技術整合, 優活日記實現透過非侵入方式獲得多項健康數值的功能。
+    </string>
+    <string name="powerManagementData">1)按壓電源鍵開機。 \n\n2)若三分鐘未使用，產品會自動關機。\n\n3)測試完畢，請按壓電源鍵約3秒關機。\n\n4)充電時，不可進行量測。\n\n5)建議電力低於30%時，請先充飽電再進行量測。
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary"> 優活日記</string>
+    <string name="yourReminderIsSet">請提醒您</string>
+    
+
+</resources>

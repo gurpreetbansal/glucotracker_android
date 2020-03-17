@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">
+Your recent measurement at</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">Hemoglobin information:\n\n
+1.	Hemoglobin value is low: More commonly seen in female, also commonly known as anemia.\n
+2.	In symptoms such as dizziness, fatigue, tarry stool, or blood stool, it is recommended to go to the hospital for further examination.\n
+3.	It is recommended to consume more iron rich and protein rich foods, and also vitamin-C, it helps iron absorption.\n
+4.	Hemoglobin value is high: Blood is concentrated, and harder to flow. It is recommended to go to hospital for further examination.\n\n
+        Health IndexReference:\n\n
+1.	Blood Glucose Level\n
+o	Fasting/Preprandial: 3.9~6.1 mmol/L (70~110 mg/dl)\n
+o	2 hr postprandial: 3.9~7.8 mmol/L (70~140 mg/dl)\n
+2.	Pulse\n
+o	60-100 bpm \n
+3.	Blood Flow Velocity\n
+o	220~440 AU \n
+4.	Hemoglobin\n
+o	male: 120-160 g/L\n
+o	female: 110-150 g/L\n
+5.	Oxygen Saturation \n
+94% - 100%\n\n
+        Other Health Index data:\n\n
+Glucose information: \n\n
+When BGL value is too low or too high,\n
+1.	First check that the smart sensor is used under suitable testing conditions.\n
+2.	Blood glucose should not be lower than 100mg/dL, it is recommended to replenish body sugar by eating piece of candy and cookie to avoid low blood sugar.\n
+3.	Blood glucose should not be above 300mg/dL, make sure no symptoms such as dizziness or vomiting occur. Drink plenty of water and test again after one hour.\n
+4.	If blood glucose is above 300 mg/dL, it is recommended to go hospital for further examination.\n\n
+        Pulse information:\n\n
+When Pulse value is low or high,\n
+1.	Pulse value is low: lower than 60bpm, commonly seen in atrioventricular block or increased intracranial pressure.\n
+2.	Pulse value is high: more than 100bpm, commonly seen in fever, anemia, or coronary heart diseases.\n
+3.	It is usually companied with other physical symptoms, it is recommended to go hospital for further examination.\n\n
+        Blood Flow Velocity information:\n\n
+        1.	BFV value is denoted as the unit time flown through a section of the blood vessel, also called "volume rate".\n
+2.	Arterial blood flow is affected by systolic and diastolic heartbeat. Systolic heartbeat speeds up the blood flow, and diastolic heartbeat slows down the blood flow. \n
+3.	When blood vessel is elastic, blood flow is slower; When blood vessel becomes stuff, blood flow will be significantly faster. \n
+4.	We can use the values derived from this testing to compare the blood flow of a person of similar age, and therefore deduce whether the person\'s blood vessel is aged faster than the actual person\'s age.\n\n
+How to keep your blood vessels elastic:\n\n
+1.	Maintain constant exercise.\n
+2.	Maintain balanced nutrition intake such as proteins and vitamins.\n
+3.	Regulate three highs: blood glucose, blood pressure, and blood fat.\n
+4.	Drink enough water daily to reduce blood vessel stickiness.\n\n
+
+         Oxygen Saturation(SpO2) Information:\n\n
+ 1.Less than 94percent: Lack of Oxygen.\n
+ 2.Less than 90percent: Hypoxemia.\n
+ 3.In case of SpO2 less than 90percent, and shows symptoms of stuffy chest, fatigue and difficulty in breathing, it is recommended to go to hospital for examination.
+    </string>
+    <string name="pdfFile">pdf file</string>
+    <string name="esserHealthCareTechnology">ESER Health Care Digital Technology Co Ltd</string>
+    <string name="healthAlert">Health Alert</string>
+    <string name="applicationPdf">application/pdf</string>
+    <string name="pdfPulse">Pulse -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">Blood flow velocity - </string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">Oxygen saturation -</string>
+    <string name="pdfHemoglobin">Hemoglobin -</string>
+    <string name="pdfBloodGlucose">Blood glucose -</string>
+    <string name="pdfHello">Hello</string>
+    <string name="resultScrenshot">Result Screenshot</string>
+    <string name="applicationExcel">application/excel</string>
+    <string name="excelFileText"> History Data</string>
+
+</resources>

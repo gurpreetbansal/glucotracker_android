@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:gravity="center_vertical"
+    android:id="@+id/parentLayout"
+    android:transitionGroup="true">
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/deviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black" />
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/deviceAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/black" />
+
+
+</LinearLayout>

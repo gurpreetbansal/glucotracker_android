@@ -1,0 +1,18 @@
+<resources>
+    <string name="userInstruction">Gebruiksaanwijzing</string>
+    <string name="powerManagement">Energiebeheer</string>
+    <string name="notices">Punten van aandacht</string>
+    <string name="productBasics">Product Basics</string>
+    <string name="userInstructionData">
+
+De Vigory Diary, health assistent is nuttig voor het verkrijgen van veel informatie over uw lichaam.\n\nHet is non-invasieve manier van meten, zodat u geen pijn ervaart tijdens het testen. U kunt er meerdere malen per dag gebruik van maken. Op deze manier kunt een goed overzicht hebben van uw lichaam. \n\nDoor middel van talloze op laboratorium gebaseerde onderzoeken naar experimenten en combinatie van geïntegreerde sensortechnologie, is de Vigory Diary in staat om diverse medische gegevens te verzamelen
+    </string>
+    <string name="powerManagementData">1) Druk op de knop aan de voorzijde om de Vigori Diary aan te zetten. \n\n2) Apparaat wordt automatisch uitgeschakeld binnen 3 minuten geen gebruik gemaakt te hebben.\n\n3) Na het testen, drukt u op de knop voor ongeveer 3 seconden om af te sluiten. \n\n4)Het testen is niet toegestaan tijdens het opladen.\n\n5) Als de batterij is lager dan 20% kunt u niet meten, graag opladen voor het testen.
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary">Vigory dagboek.</string>
+    <string name="yourReminderIsSet">Uw herinnering is ingesteld</string>
+
+</resources>

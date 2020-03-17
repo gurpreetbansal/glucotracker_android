@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">Bluetooth-Erkennung fehlgeschlagen</string>
+    <string name="secureBluetoothParingDoneCorrectly">Gelieve veilig Bluetooth-koppeling is correct gedaan</string>
+    <string name="dontApplyPressure">Ontspan en oefen geen druk uit op de zilveren sensor!</string>
+    <string name="temperatureLow">Omgevingstemperatuur te laag, probeer het in een ander klimaat opnieuw!</string>
+    <string name="temperatureHigh">Gelieve vinger in de vinger clip sensor\nDie Umgebungstemperatur ist hoch. Deze zullen de resultaten beïnvloeden.</string>
+    <string name="environmentDry">De milieu luchtvochtigheid is te droog voor de test, probeer het in een andere omgeving opnieuw!</string>
+    <string name="humidityHigh">De milieu luchtvochtigheid is te hoog voor de test, probeer het in een andere omgeving opnieuw!</string>
+    <string name="ERBW">Vinger is niet goed geplaatst!</string>
+    <string name="ERAD">Verkeerde informatie verzameld, probeer het opnieuw!</string>
+    <string name="ERTT">Bij het plaatsen van de vinger, dan kunt u ontspannen zonder naar beneden te drukken de sensor.please probeer het opnieuw, dank u!"</string>
+    <string name="fingerTemperatureLow">Vinger temp is te laag, dit kan leiden tot foutieve meetgegevens.</string>
+    <string name="fingerTemperatureHigh">Vinger temp is te hoog, dit kan leiden tot foutieve meetgegevens.</string>
+    <string name= "ERRO">Vinger verwijderd!</string>
+    <string name= "CCFRCS">Vinger niet gedetecteerd!</string>
+    <string name="deviceOnCharging">Reset het apparaat voor het gebruik!</string>
+    <string name="deviceNotFound">Apparaat niet gevonden</string>
+    <string name="deviceNotResponding">Apparaat reageert niet, reset het apparaat en probeer het opnieuw!</string>
+    <string name="deviceBatteryLow">Batterijpercentage is te laag voor het testen!</string>
+    <string name="checkSensor">Controleer sensoren...</string>
+    <string name="testResultIncorrect">Foutieve testresultaten gemeten, plaats uw vinger a.u.b. correct op de sensor</string>
+    <string name="returenBackInSecond">Keer terug in (tegen) seconden!</string>
+    <string name="deviceDisconnected">Apparaat disonnected!</string>
+    <string name="fingerInserted">Vinger geplaatst</string>
+    <string name="fingerRemoved">Vinger verwijderd!</string>
+</resources>

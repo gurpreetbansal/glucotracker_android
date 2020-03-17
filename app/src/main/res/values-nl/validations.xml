@@ -1,0 +1,38 @@
+<resources>
+    <string name="enterUsername">Voer unieke gebruikersnaam</string>
+    <string name="enterPassword">Voer wachtwoord in</string>
+    <string name="validUsername">Voer geldige gebruikersnaam</string>
+    <string name="validPassword">Wachtwoord lengte moet groter zijn dan 8 karakters</string>
+    <string name="enterGender">Selecteer geslacht</string>
+    <string name="selectAge">U moet 12 jaar of ouder zijn om succesvol gemeten te kunnen worden</string>
+    <string name="enterCorrectHeight">Hoogte moet binnen het bereik van 50-250 cm zijn</string>
+    <string name="enterCorrectWeight">Gewicht moet binnen het bereik van 30-200 kg zijn</string>
+    <string name="enterCorrectGlucose">Glucose moet binnen het bereik van 3.1-17.5 mmol/L zijn</string>
+    <string name="selectHeight">Selecteer hoogte</string>
+    <string name="selectWeight">Voer gewicht</string>
+    <string name="selectgender">Selecteer geslacht</string>
+    <string name="enterYourHeight">Voer Hoogte</string>
+    <string name="enterYourWeight">Voer Gewicht</string>
+    <string name="enterYourAge">Enter Age</string>
+    <string name="selectGlucose">Voer Glucose</string>
+    <string name="enterGlucose">Voer Glucose</string>
+    <string name="usernameExists">Gebruiker bestaat al</string>
+
+    //signup string
+    <string name="seven">07</string>
+    <string name="doubleZero">00</string>
+    <string name="breakfastText">Ontbijt</string>
+    <string name="timeEight">08:00</string>
+    <string name="eight">08</string>
+    <string name="lunchText">Lunch</string>
+    <string name="dinnerText">Avondeten</string>
+    <string name="sleepingText">slapen</string>
+    <string name="othersText">Overig</string>
+    <string name="timeOne">01:00</string>
+    <string name="timeTen">10:00</string>
+    <string name="timeFive">05:00</string>
+    <string name="oneText">01</string>
+    <string name="ten">10</string>
+    <string name="five">05</string>
+
+</resources>

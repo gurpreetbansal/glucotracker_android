@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">ブルートゥース検出に失敗しました</string>
+    <string name="secureBluetoothParingDoneCorrectly">ブルートゥースペアリングが正しく行われていることを確認してください</string>
+    <string name="dontApplyPressure">リラックス！シルバーセンサーに圧力をかけないでください</string>
+    <string name="temperatureLow">フィンガークリップセンサーに指を入れてください\n周辺温度が低すぎます、これは結果に影響します。</string>
+    <string name="temperatureHigh">フィンガークリップセンサーに指を入れてください\n環境温度が高すぎてテストできませんでした。これは結果に影響します。</string>
+    <string name="environmentDry">フィンガークリップセンサーに指を入れてください\n環境がテストのために乾燥しすぎているので、これは結果に影響します。</string>
+    <string name="humidityHigh">フィンガークリップセンサーに指を入れてください\n環境湿度が高すぎるため、これは結果に影響します。</string>
+    <string name="ERBW">指が正しく挿入されていない！</string>
+    <string name="ERAD">間違ったデータ収集、プローブが適切に挿入されている可能性があります。</string>
+    <string name="ERTT">指を挿入するときは、センサーを押し下げずにリラックスしてください。もう一度やり直してください、ありがとう！</string>
+    <string name="fingerTemperatureLow">指の温度が低すぎます。これは結果に影響します。</string>
+    <string name="fingerTemperatureHigh">指の温度が高すぎます。これは結果に影響します。</string>
+    <string name= "ERRO">指が削除されました！</string>
+    <string name= "CCFRCS">指が挿入されていません!</string>
+    <string name="deviceOnCharging">使用前にデバイスをリセットしてください！</string>
+    <string name="deviceNotFound">デバイスが見つかりません</string>
+    <string name="deviceNotResponding">デバイスがテストで応答していません。デバイスをリセットしてもう一度お試しください！</string>
+    <string name="deviceBatteryLow">デバイスの電力が低いです。テストの前に請求してください。</string>
+    <string name="checkSensor">センサーのチェック</string>
+    <string name="testResultIncorrect">テスト結果が正しくありません。指を正しく挿入してください</string>
+    <string name="returenBackInSecond">戻って（カウンター）秒！</string>
+    <string name="deviceDisconnected">デバイスが接続されていません！</string>
+    <string name="fingerInserted">指が挿入された</string>
+    <string name="fingerRemoved">指が削除されました！</string>
+</resources>

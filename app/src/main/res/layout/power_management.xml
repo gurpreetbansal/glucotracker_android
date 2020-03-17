@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/bluetoothHeadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <CustomControl.TextViewIconStyle
+            android:id="@+id/backIcon"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/leftArrow"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <CustomControl.TextViewGothamMedium
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/powerManagement"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line" />
+
+    <CustomControl.TextViewGothamBook
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/powerManagementData"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

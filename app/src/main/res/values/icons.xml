@@ -1,0 +1,8 @@
+<resources>
+    <string name="navigationBarIcon">&#xf0c9;</string>
+    <string name="rightArrow">&#xf105;</string>
+    <string name="leftArrow">&#xf104;</string>
+    <string name="downIcon">&#xf078;</string>
+    <string name="fa_chevron_left">&#xf053;</string>
+    <string name="fa_share_alt">&#xf1e0;</string>
+</resources>

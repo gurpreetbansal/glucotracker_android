@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher_circle" />
+
+        <CustomControl.TextViewGothamMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/rev"
+            android:textColor="#767676"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/userNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/userName"
+                android:maxLength="25"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewIconStyle
+                android:id="@+id/dropDownIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:text="@string/downIcon" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <CustomControl.EditTextGothamBook
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="21"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:text="@string/show"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/logIn"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </RelativeLayout>
+        <!--<CustomControl.TextViewGothamBook-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/or"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="5dp"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/loginWithFbButton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="@string/loginWithFb"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="17sp"-->
+        <!--android:background="@drawable/button_shape_blue"-->
+        <!--android:backgroundTint="#375692" />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:gravity="center">
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/dontHaveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dontHaveAccount"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/dontHaveAccount"
+                android:clickable="true"
+                android:text="@string/signUp"
+                android:textColor="@color/blue"
+                android:textSize="14sp" />
+        </RelativeLayout>
+        <!--<CustomControl.TextViewGothamBook-->
+        <!--android:id="@+id/forgotPasswordButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/forgotPassword"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textColor="@color/blue"-->
+        <!--android:textSize="16sp" />-->
+    </LinearLayout>
+</ScrollView>

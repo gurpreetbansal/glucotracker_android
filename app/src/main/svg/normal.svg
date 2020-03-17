@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="971.797px" height="147.781px" viewBox="0 0 971.797 147.781" enable-background="new 0 0 971.797 147.781"
+	 xml:space="preserve">
+<g id="Layer_3">
+	<g>
+		<g id="Medical_Diagnosis">
+			<g id="Select_1">
+				<path fill="none" stroke="#272626" stroke-width="3.45" stroke-miterlimit="10" d="M970.039,77.044c0,38.105-30.893,69-69,69
+					H70.756c-38.107,0-68.999-30.895-68.999-69v-6.311c0-38.107,30.892-68.996,68.999-68.996h830.283c38.107,0,69,30.889,69,68.996
+					V77.044z"/>
+				<path fill="#4F77BB" d="M486.44,78.761c0,38.107-30.892,69-68.999,69H68.999c-38.106,0-68.999-30.893-68.999-69v-9.738
+					C0,30.915,30.893,0.021,68.999,0.021h348.442c38.107,0,68.999,30.895,68.999,69.002V78.761z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Status_bar">
+	<rect x="-135.094" y="-94.109" display="none" fill="#D1D3D4" width="1242" height="147"/>
+</g>
+<g id="Guides">
+</g>
+</svg>

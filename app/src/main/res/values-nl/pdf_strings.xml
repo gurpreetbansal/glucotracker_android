@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">
+Je recente meting bij</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">Hemoglobine informatie:\n\n
+1.  Hemoglobinewaarde is laag: vaker gezien bij vrouwen, ook bekend als bloedarmoede.\n
+2.  In symptomen zoals duizeligheid, vermoeidheid, teerachtige ontlasting of bloed ontlasting, is het raadzaam om te gaan naar het ziekenhuis voor verder onderzoek.\n
+3.	Het wordt aanbevolen om meer ijzer rijke en eiwitrijke voedingsmiddelen te consumeren, en ook vitamine-C, het helpt de opname van ijzer.\n
+4.  Hemoglobine waarde hoog: Blood is geconcentreerd, en harder te stromen. Het wordt aangeraden om naar het ziekenhuis voor verder onderzoek ..\n\n
+        Gezondheid IndexReference:\n\n
+1.  Bloedsuikerspiegel\n
+o	Vasten / preprandiale: 3,9 ~ 6,1 mmol / L (70 ~ 110 mg / dl)\n
+o   2 uur postprandiale: 3,9 ~ 7,8 mmol / L (70 ~ 140 mg / dl)\n
+2.	pols\n
+o	60-100 bpm \n
+3.	Blood Flow Velocity\n
+o   220 ~ 440 AU \n
+4.  Hemoglobine\n
+o   mannelijk: 120-160 g / l\n
+o   female: 110-150 g / l\n
+5.  Zuurstofverzadiging \n
+94% - 100%\n\n
+        Andere Health Index gegevens:\n\n
+Glucose informatie: \n\n
+Wanneer BGL waarde te laag of te hoog,\n
+1.  Controleer eerst dat de slimme sensor wordt gebruikt onder geschikte testomstandigheden.\n
+2.  Bloedglucose mag niet lager zijn dan 100 mg / dL zijn, is het raadzaam om het lichaam suiker te vullen door het eten van snoepje en cookie te lage bloedsuikerspiegel te voorkomen.\n
+3.  Bloedglucose mag niet hoger zijn dan 300 mg / dL, zorg ervoor dat er geen symptomen zoals duizeligheid of braken optreden. Drink veel water en test opnieuw na een uur.\n
+4.	Als bloedglucose hoger is dan 300 mg / dL, is het raadzaam om het ziekenhuis te gaan voor verder onderzoek.\n\n
+        Pulse informatie:\n\n
+Wanneer Pulse waarde is laag of hoog,\n
+1.  Pulse waarde laag: lager dan 60bpm, vaak gezien in atrioventriculair blok of een verhoogde intracraniële druk.\n
+2.  Pulse waarde is hoog: meer dan 100bpm, vaak gezien in koorts, bloedarmoede, of coronaire hartziekten.\n
+3.  Het wordt meestal companied met andere lichamelijke klachten, is het raadzaam om het ziekenhuis te gaan voor verder onderzoek.\n\n
+        Blood Flow Velocity informatie:\n\n
+        1.BFV waarde wordt aangeduid als de tijdseenheid gevlogen door een deel van het bloedvat, ook wel "debiet".\n
+2.	Slagaderlijke bloedstroom wordt beïnvloed door systolische en diastolische hartslag. Systolische hartslag versnelt de bloedstroom en diastolische hartslag vertraagt ​​de bloedstroom. \n
+3.  Wanneer bloedvat is elastisch, de doorbloeding is langzamer; Wanneer bloedvat wordt stuff, zal de bloedstroom aanzienlijk sneller zijn. \n
+4.	We can use the values derived from this testing to compare the blood flow of a person of similar age, and therefore deduce whether the person\'s blood vessel is aged faster than the actual person\'s age.\n\n
+Hoe kunt u uw bloedvaten elastisch te houden:\n\n
+1.	Zorg voor een constante oefening.\n
+2.  Onderhouden uitgebalanceerde voeding inname zoals eiwitten en vitaminen.\n
+3.  Reguleren drie hoogtepunten: bloedglucose, bloeddruk en vetgehalte in het bloed.\n
+4.  Drink voldoende water per dag om bloedvat kleverigheid te verminderen.\n\n
+
+        Zuurstofverzadiging (SpO2) Informatie:\n\n
+ 1.Minder dan 94percent: gebrek aan zuurstof.\n
+ 2.Minder dan 90percent: Hypoxemie.\n
+ 3.In het geval van SpO2 minder dan 90percent, en vertoont symptomen van een verstopte borst, vermoeidheid en ademhalingsmoeilijkheden, is het raadzaam om naar het ziekenhuis voor onderzoek.
+    </string>
+    <string name="pdfFile">Pdf-bestand</string>
+    <string name="esserHealthCareTechnology">ESER Healthcare Digital Technology</string>
+    <string name="healthAlert">Gezondheidsverslag</string>
+    <string name="applicationPdf">application / pdf</string>
+    <string name="pdfPulse">Pols -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">De bloedstroming - </string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">Zuurstof verzadiging -</string>
+    <string name="pdfHemoglobin">Hemoglobine -</string>
+    <string name="pdfBloodGlucose">Bloed glucose -</string>
+    <string name="pdfHello">Hallo</string>
+    <string name="resultScrenshot">resultaat Screenshot</string>
+    <string name="applicationExcel">application / excel</string>
+    <string name="excelFileText">Historische gegevens</string>
+</resources>

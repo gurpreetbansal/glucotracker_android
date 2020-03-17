@@ -1,0 +1,50 @@
+<resources>
+    <string-array name="navigationItems">
+        <item name="profile">プロフィール</item>
+        <item name="bluetooth">ブルートゥース</item>
+        <item name="editUser">ユーザーの編集</item>
+        <item name="unitSettings">ユニット設定</item>
+        <item name="reminderSettings">リマインダーの設定</item>
+        <item name="MeasurementRecord">測定レコード</item>
+        <item name="healthReference">* 健康リファレンス *</item>
+        <item name="manageAccounts">アカウントの管理</item>
+        <item name="switchUser">ユーザーの切り替え</item>
+        <item name="signOut">サインアウト</item>
+    </string-array>
+    <string-array name="guideItems">
+        <item name="userInstruction1">ユーザーインストラクション</item>
+        <item name="power1">電源管理</item>
+        <item name="notices1">お知らせ</item>
+        <item name="ProductBasis1">掲載</item>
+    </string-array>
+
+    <string-array name="genderItems">
+        <item name="male">男性</item>
+        <item name="female">女性</item>
+    </string-array>
+
+   <string-array name="healthReminderItems">
+       <item name="fastingBlood">断食の血</item>
+       <item name="breakfast">朝ごはん</item>
+       <item name="lunch">ランチ</item>
+       <item name="dinner">ディナー</item>
+       <item name="sleepings">睡眠</item>
+       <item name="others">その他</item>
+   </string-array>
+
+    <string-array name="time">
+        <item name="time1">7:00</item>
+        <item name="time2">8:00</item>
+        <item name="time3">1:00</item>
+        <item name="time4">8:00</item>
+        <item name="time5">10:00</item>
+        <item name="time6">5:00</item>
+    </string-array>
+
+    <string-array name="captureImageItems">
+        <item name="captureImage">カメラ</item>
+        <item name="library">ギャラリー</item>
+        <item name="cancel">キャンセル</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="userInstruction">
+用户须知</string>
+    <string name="powerManagement">
+电量管理</string>
+    <string name="notices">用户注意事项</string>
+    <string name="productBasics">
+产品说明</string>
+    <string name="userInstructionData">
+
+优糖精灵能够透过撷取很多身体的健康信息。\n \n这是非侵入性的，因此在测试过程中不会感到任何疼痛。您也可以每天多次使用它来跟踪你的身体健康。\n \n通过无数的实验室为基础的实验和组合的集成传感器技术,可以检测并收集多种参数。
+    </string>
+    <string name="powerManagementData">1) 轻按开机键启动优活日记 \n\n2) 闲置3分钟后, 设备将自动关机  \n\n3) 测试完毕后, 请按压电源键约3秒关机 \n\n4) 充电时请勿使用优活日记 \n\n5) 当电量低于30%时, 请先充饱电再使用
+
+    </string>
+
+    //Alarm Manager string
+
+    <string name="alarmVigoriDiary">优活日记</string>
+    <string name="yourReminderIsSet">您的提醒已设置</string>
+
+</resources>

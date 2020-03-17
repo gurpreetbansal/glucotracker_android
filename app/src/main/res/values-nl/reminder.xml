@@ -1,0 +1,48 @@
+<resources>
+  // reminder string
+<string name="reminderType">reminderType</string>
+  <string name="index">index</string>
+  <string name="reminderName">reminderName</string>
+  <string name="reminderTime">reminderTime</string>
+  <string name="selectTime">Selecteer Tijd</string>
+  <string name="timeText">time</string>
+  <string name="hours">hours</string>
+  <string name="minutes">minutes</string>
+
+
+  //result string
+  <string name="responseText">antwoord</string>
+  <string name="fromDate">Van Date kan\'t groter zijn dan tot nu toe</string>
+  <string name="dateNotSame">Vanaf datum kan\'t zelfde als Tot op heden</string>
+
+  //bluetooth string
+  <string name="nameText">Naam:</string>
+  <string name="addressText">Adres:</string>
+
+  //string
+  <string name="trueText">true</string>
+  <string name="falseText">false</string>
+  <string name="amText">AM</string>
+  <string name="pmText">PM</string>
+  <string name="usernameText">gebruikersnaam</string>
+  <string name="passwordText">wachtwoord</string>
+  <string name="usernameAndPassNotMatch">Gebruikersnaam en wachtwoord doet\'t match</string>
+  <string name="sureWantToExit">Weet u zeker dat u wilt afsluiten?</string>
+  <string name="enterCorrectDataInSettings">Voer de juiste gegevens</string>
+  <string name="couldnotSendMail">Kan niet verzenden email.Please presteren eerste test!</string>
+  <string name="reminder">Erinnerungen</string>
+  <string name="sureDelete">Weet u zeker dat u de meting wilt verwijderen?</string>
+  <string name="MetabolismText">Metabolisme ruilwaarde is enige referentie, geen diagnose data</string>
+  <string name="healthReference1">Gezondheidsreferentie</string>
+
+  //Excel string
+  <string name="firstSheet">eerst Sheet</string>
+  <string name="dateExcel">DATUM</string>
+  <string name="timeExcel">TIJD</string>
+  <string name="glucoseMgExcel">GLUCOSE (mmol/L)</string>
+  <string name="glucosemg">GLUCOSE (mg/dl)</string>
+  <string name="pulseExcel">POLS</string>
+  <string name="spo2Excel">SpO2</string>
+  <string name="hemoglobinGExcel">Hemoglobine (g/l)</string>
+  <string name="bloodFlowExcel">BLOEDSTROOM</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="bluetoothDetection">ブルートゥース検出...</string>
+    <string name="waitForInstruction">指を挿入する前に指示をお待ちください</string>
+    <string name="commplainToEnvironmentalCondition">環境条件に適合</string>
+    <string name="pleaseInsertFinger">フィンガークリップセンサーに指を入れてください</string>
+    <string name="checkHealthRegularly">定期的に健康状態をチェックする</string>
+    <string name="stayCalm">落ち着いて、現在の姿勢を保ってください</string>
+    <string name="partcipateInPhysicalActivity">ほとんどの曜日に30分間の身体活動に参加してください。</string>
+    <string name="manageStress">リラックスしたアクティビティを通してストレスを管理する</string>
+    <string name="eatWell">右食べます\nダイエットや注文の量に従ってください\n野菜の2人前\n2部品タンパク質\n1炭水化物</string>
+    <string name="getSleep">十分な睡眠をとる</string>
+    <string name="stayHydrated">水を加えます</string>
+    <string name="somethingWentWrong">テストで何かが間違っていた、もう一度テストしてください</string>
+    <string name="startTest">テストを開始する</string>
+    <string name="relax">リラックス ！</string>
+    <string name="whenAllResultFound">すべての結果が見つかった場合0：</string>
+    <string name="Device_Connection_Failure">デバイス接続の失敗</string>
+    <string name ="Device_power_on">デバイスの電源がオンになっていることを確認してください。</string>
+    <string name="pleaseOnTheBluetooth">Bluetoothをオンにしてください。。</string>
+    <string name="yesText">はい</string>
+    <string name="noText">いいえ</string>
+    <string name="notConnectedText">接続されていません</string>
+    <string name="pleaseWaitFor3Minutes">別のテストのために5分待ってください！</string>
+    <string name="pleaseChooseMealFirst">まず食事を選んでください！</string>
+    <string name="turnedOff">オフになった</string>
+
+</resources>

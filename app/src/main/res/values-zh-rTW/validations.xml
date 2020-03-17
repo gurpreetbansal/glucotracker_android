@@ -1,0 +1,38 @@
+<resources>
+    <string name="enterUsername">輸入唯一用戶名</string>
+    <string name="enterPassword">輸入密碼</string>
+    <string name="validUsername">輸入有效用戶名</string>
+    <string name="validPassword">密碼長度應大於8個字符</string>
+    <string name="enterGender">選擇性別</string>
+    <string name="selectAge">年齡應大於12歲</string>
+    <string name="enterCorrectHeight">身高範圍: 50-250公分</string>
+    <string name="enterCorrectWeight">體重範圍: 30-200公斤</string>
+    <string name="enterCorrectGlucose">葡萄糖值必須在範圍3.1-17.5 mmol/L內</string>
+    <string name="selectHeight">選擇高度</string>
+    <string name="selectWeight">輸入重量</string>
+    <string name="selectgender">選擇性別</string>
+    <string name="enterYourHeight">選擇高度</string>
+    <string name="enterYourWeight">輸入重量</string>
+    <string name="enterYourAge">輸入年齡</string>
+    <string name="selectGlucose">輸入葡萄糖</string>
+    <string name="enterGlucose">輸入葡萄糖</string>
+    <string name="usernameExists">此用戶已存在!</string>
+
+
+    //signup string
+    <string name="seven">07</string>
+    <string name="doubleZero">00</string>
+    <string name="breakfastText">早餐</string>
+    <string name="timeEight">08:00</string>
+    <string name="eight">08</string>
+    <string name="lunchText">午餐</string>
+    <string name="dinnerText">晚餐</string>
+    <string name="sleepingText">睡眠</string>
+    <string name="othersText">其他</string>
+    <string name="timeOne">01:00</string>
+    <string name="timeTen">10:00</string>
+    <string name="timeFive">05:00</string>
+    <string name="oneText">01</string>
+    <string name="ten">10</string>
+    <string name="five">05</string>
+</resources>

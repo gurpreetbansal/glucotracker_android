@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/unitSettingLayout"
+    android:background="@android:color/white"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar_view"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/heightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/heightText"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@id/heightTextView"
+                    android:layout_toRightOf="@id/heightTextView"
+                    android:gravity="end|right">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/stroke_unit"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/cmTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/cmText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/inTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_toRightOf="@id/cmTextView"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/inText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/weightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/weightText"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@id/weightTextView"
+                    android:layout_toRightOf="@id/weightTextView"
+                    android:gravity="end|right">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/stroke_unit"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/kgTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/kgText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/lbTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_toEndOf="@id/kgTextView"
+                            android:layout_toRightOf="@id/kgTextView"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/lbText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/glucoseTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/glucose"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@id/glucoseTextView"
+                    android:layout_toRightOf="@id/glucoseTextView"
+                    android:gravity="end|right">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/stroke_unit"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/mMolTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/mMolText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/mgDlTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_toEndOf="@id/mMolTextView"
+                            android:layout_toRightOf="@id/mMolTextView"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/mMgdlText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <CustomControl.TextViewGothamBook
+                    android:id="@+id/hemoglobinTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/hemoglobinText"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@id/hemoglobinTextView"
+                    android:layout_toRightOf="@id/hemoglobinTextView"
+                    android:gravity="end|right">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/stroke_unit"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/gLTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/gPerLitreText"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                        <CustomControl.TextViewGothamBook
+                            android:id="@+id/gDlTextView"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_toEndOf="@id/gLTextView"
+                            android:layout_toRightOf="@id/gLTextView"
+                            android:background="@drawable/unit_state"
+                            android:gravity="center"
+                            android:text="@string/gPerdl"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/line" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape_red"
+                android:gravity="center"
+                android:text="@string/save"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <CustomControl.TextViewGothamBook
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unitANote"
+                android:textColor="@color/red"
+                android:layout_marginTop="40dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"/>
+            <CustomControl.TextViewGothamBook
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unitBNote"
+                android:textColor="@color/red"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

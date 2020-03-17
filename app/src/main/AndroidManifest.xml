@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wellnessy.glucotracker">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.wellnessy.glucotracker.HealthMonitoringAndroid"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_circle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,LockedOrientationActivity">
+
+        <activity
+            android:name="com.wellnessy.glucotracker.NavigationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.TestForNormalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.BluetoothActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.ProcessingActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.UserInstructionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.ProductBasisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.PowerManagementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.NoticesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.EditReminderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.ExtendFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.SelectUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wellnessy.glucotracker.NotificationPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name="com.wellnessy.glucotracker.MeasurementSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.Test2HoursActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wellnessy.glucotracker.GuideActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.wellnessy.glucotracker.StartScreenActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.wellnessy.glucotracker.MyReceiver" />
+
+        <service
+            android:name="com.wellnessy.glucotracker.MyAlarmService"
+            android:enabled="true" />
+
+        <service
+            android:name="com.wellnessy.glucotracker.ACSUtilityService"
+            android:enabled="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.wellnessy.glucotracker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="enterUsername">Enter Unique Username</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="validUsername">Enter valid username</string>
+    <string name="validPassword">Password length should be greater than 8 characters</string>
+    <string name="enterGender">Select Gender</string>
+    <string name="selectAge">You must be 12 years of age or older</string>
+    <string name="enterCorrectHeight">Height must be in range of 50-250 cms</string>
+    <string name="enterCorrectWeight">Weight must be in range of 30-200 kgs</string>
+    <string name="enterCorrectGlucose">Glucose must be in range of 3.1-17.5 mmol/l</string>
+    <string name="selectHeight">Enter height</string>
+    <string name="selectWeight">Enter weight</string>
+    <string name="selectgender">Select Gender</string>
+    <string name="enterYourHeight">Enter Height</string>
+    <string name="enterYourWeight">Enter Weight</string>
+    <string name="enterYourAge">Enter Age</string>
+    <string name="selectGlucose">Enter Glucose</string>
+    <string name="enterGlucose">Enter glucose</string>
+    <string name="usernameExists">Username already exists</string>
+
+
+    //signup string
+    <string name="seven">07</string>
+    <string name="doubleZero">00</string>
+    <string name="breakfastText">Breakfast</string>
+    <string name="timeEight">08:00</string>
+    <string name="eight">08</string>
+    <string name="lunchText">Lunch</string>
+    <string name="dinnerText">Dinner</string>
+    <string name="sleepingText">Sleeping</string>
+    <string name="othersText">Others</string>
+    <string name="timeOne">01:00</string>
+    <string name="timeTen">10:00</string>
+    <string name="timeFive">05:00</string>
+    <string name="oneText">01</string>
+    <string name="ten">10</string>
+    <string name="five">05</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="usageNotice">Gluco Tracker使用上の注意</string>
+    <string name="fulldayOfVitality">活力の完全な日は自己の健康監視から始まります。</string>
+    <string name="thisProductNotAMedicalDevice">この監視データは、毎日の状態を監視するためのものであり、医師の診察、カウンセリング、診断、または推奨される治療に代わるものではありません。\ n \ n
+健康管理の数値に異常がある場合は、すぐに専門家の検出のために病院に行ってください。
+</string>
+    <string name="acceptButtonText">受け入れる</string>
+</resources>

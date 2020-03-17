@@ -1,0 +1,50 @@
+<resources>
+    <string-array name="navigationItems">
+        <item name="profile">主頁</item>
+        <item name="bluetooth">藍牙</item>
+        <item name="editUser">編輯用戶</item>
+        <item name="unitSettings">單位設定</item>
+        <item name="reminderSettings">提醒設定</item>
+        <item name="MeasurementRecord">量測記錄</item>
+        <item name="healthReference">* 健康參考資訊 *</item>
+        <item name="manageAccounts">管理帳戶</item>
+        <item name="switchUser">切換用戶</item>
+        <item name="signOut">登出</item>
+    </string-array>
+    <string-array name="guideItems">
+        <item name="userInstruction1">使用說明</item>
+        <item name="power1">電量管理</item>
+        <item name="notices1">注意</item>
+        <item name="ProductBasis1">產品說明</item>
+    </string-array>
+
+    <string-array name="genderItems">
+        <item name="male">男性</item>
+        <item name="female">女性</item>
+    </string-array>
+
+   <string-array name="healthReminderItems">
+       <item name="fastingBlood">空腹血</item>
+       <item name="breakfast">早餐</item>
+       <item name="lunch">午餐</item>
+       <item name="dinner">晚餐</item>
+       <item name="sleepings">睡眠</item>
+       <item name="others">其他</item>
+   </string-array>
+
+    <string-array name="time">
+        <item name="time1">7:00</item>
+        <item name="time2">8:00</item>
+        <item name="time3">1:00</item>
+        <item name="time4">8:00</item>
+        <item name="time5">10:00</item>
+        <item name="time6">5:00</item>
+    </string-array>
+
+    <string-array name="captureImageItems">
+        <item name="captureImage">相機</item>
+        <item name="library">畫廊</item>
+        <item name="cancel">取消</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="bluetoothDetection">Détection Bluetooth ...</string>
+    <string name="waitForInstruction">Veuillez attendre l\'instruction \n avant d\'insérer le doigt</string>
+    <string name="commplainToEnvironmentalCondition">Conforme à l\'état de l\'environnement</string>
+    <string name="pleaseInsertFinger">S\'il vous plaît insérez un doigt dans le capteur de clip doigt</string>
+    <string name="checkHealthRegularly">Vérifiez régulièrement la santé</string>
+    <string name="stayCalm">Restez calme et \n gardez la posture actuelle</string>
+    <string name="partcipateInPhysicalActivity">Participer à 30 minutes d\'activité physique la plupart des jours de la semaine.</string>
+    <string name="manageStress">Gérer le stress grâce à des activités de détente vous trouvez.</string>
+    <string name="eatWell">Eat Well \n Suivez ci-dessous afin de l\'alimentation et de la partie \n 2 portions de légumes \n 2 portions de protéines \n 1 Portion Glucides</string>
+    <string name="getSleep">Obtenir suffisamment de sommeil</string>
+    <string name="stayHydrated">Restez hydraté</string>
+    <string name="somethingWentWrong">Quelque chose a mal tourné dans les tests, tester à nouveau S\'il vous plaît</string>
+    <string name="startTest">Démarrer le test</string>
+    <string name="relax">Se détendre !</string>
+    <string name="whenAllResultFound">lorsque tous les résultats trouvés 0 :</string>
+    <string name="Device_Connection_Failure">Dispositif Echec de la connexion</string>
+    <string name ="Device_power_on">S\'il vous plaît assurer la puissance de l\'appareil est sur.</string>
+    <string name="pleaseOnTheBluetooth">Veuillez activer le bluetooth.</string>
+    <string name="yesText">Oui</string>
+    <string name="noText">Non</string>
+    <string name="notConnectedText">Pas connecté</string>
+    <string name="pleaseWaitFor3Minutes">S\'il vous plaît attendre 5 minutes pour un autre test!</string>
+    <string name="pleaseChooseMealFirst">S\'il vous plaît choisir premier repas!</string>
+    <string name="turnedOff">Éteindre</string>
+
+</resources>

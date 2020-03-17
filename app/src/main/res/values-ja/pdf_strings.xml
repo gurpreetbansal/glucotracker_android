@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="pdfYourRecentMeasurement">
+        あなたの最近の測定値</string>
+    <string name="emptySpace">\n</string>
+    <string name="pdfFixedText">
+        ヘモグロビン情報：\n\n
+1.ヘモグロビン値が低い：一般的に貧血とも呼ばれる、女性によく見られます。\n
+2.めまい、疲労、タール便、血液便などの症状がある場合は、さらに検査するために病院に行くことをおすすめします。\n
+3.鉄分が豊富でタンパク質が豊富な食品を多く、またビタミンCも鉄の吸収に役立ちます。
+ヘモグロビン値が高い：血液が濃縮され、流れにくい。さらなる検査のために病院に行くことをお勧めします。\n \n
+        健康指標参照：\n \n
+1.血糖値\n
+o空腹時/前立腺：3.9〜6.1 mmol / L（70〜110 mg / dl）\n
+o食後2時間：3.9~7.8mmol / L（70~140mg / dl）\n
+2.パルス\n
+o 60-100 bpm \n
+血流速度\n
+o 220〜440 AU \n
+ヘモグロビン
+男性：120-160 g / L \n
+o女性：110-150 g / L \n
+5.酸素飽和度\n
+94％ -  100％\n \n
+        その他の健康指標データ：\n \n
+グルコース情報：\n \n
+BGL値が低すぎたり高すぎたりすると、\n
+1.最初にスマートセンサーが適切なテスト条件で使用されていることを確認します。\n
+2.血糖値は100mg / dL以上でなければなりません。低血糖を避けるために、キャンディーとクッキーを食べて体内の糖分を補充することをお勧めします。\n
+3.血糖値は300mg / dLを超えないようにしてください。めまいや嘔吐などの症状がないことを確認してください。十分な水を飲んで1時間後にもう一度試してください。\n
+4.血糖値が300mg / dLを超える場合は、さらなる検査のために病院へ行くことをお勧めします。\n \n
+        パルス情報：\n \n
+パルス値が低いか高い場合、\n
+1.パルス値が低い：60bpmより低く、一般に房室ブロックまたは頭蓋内圧の上昇に見られる。\n
+2.パルス値が高い：100bpm以上、一般的に発熱、貧血、または冠状動脈性心疾患に見られる。\n
+3.通常、他の身体的症状に似ていますので、さらなる検査のために病院に行くことをお勧めします。\n \n
+      血流速度情報：\n \n
+        1. BFV値は、血管の断面を通って流れる単位時間（「ボリュームレート」とも呼ばれます）として表されます。\n
+2.動脈血流は、収縮期および拡張期の心拍によって影響される。収縮期の心拍は血流を加速し、拡張期の心拍は血流を遅くする。\n
+3.血管が弾性のとき、血流は遅くなります。血管が詰まった場合、血流はかなり速くなります。 \n
+4.このテストで得られた値を使用して、同様の年齢の人の血流を比較し、その人の血管が実際の人の年齢よりも早く老化しているかどうかを推論することができます。\n \n
+あなたの血管を弾力的に保つ方法：\n \n
+1.一定の運動を維持する。\n
+2.タンパク質やビタミンなどのバランスの取れた栄養摂取を維持する。\n
+血糖値、血圧、血液脂肪の3つの高値を調整する。\n
+4.血管の粘り気を減らすために毎日十分な水を飲む。\n \n
+
+         酸素飽和度（SpO2）情報：\n \n
+ 1. 94％未満：酸素不足。\n
+ 2. 90％未満：低酸素症。\n
+ 3. SpO2が90％未満で、胸が詰まった状態、疲労、呼吸困難の症状を示す場合は、検査のために病院に行くことをお勧めします。
+    </string>
+    <string name="pdfFile">pdfファイル</string>
+    <string name="esserHealthCareTechnology">ESER Health Care Digital Technology Co Ltd</string>
+    <string name="healthAlert">健康警告</string>
+    <string name="applicationPdf">アプリケーション/ pdf</string>
+    <string name="pdfPulse">パルス -</string>
+    <string name="bpm">bpm</string>
+    <string name="pdfBloodFlow">血流速度 - </string>
+    <string name="au">AU</string>
+    <string name="pdfOxygenSaturation">酸素飽和度 -</string>
+    <string name="pdfHemoglobin">ヘモグロビン -</string>
+    <string name="pdfBloodGlucose">グルコース -</string>
+    <string name="pdfHello">こんにちは</string>
+    <string name="resultScrenshot">結果スクリーンショット</string>
+    <string name="applicationExcel">アプリケーション/エクセル</string>
+    <string name="excelFileText">履歴データ</string>
+
+
+
+
+
+
+</resources>

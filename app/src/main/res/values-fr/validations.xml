@@ -1,0 +1,38 @@
+<resources>
+    <string name="enterUsername">Entrez unique Nom d\'utilisateur</string>
+    <string name="enterPassword">Entrer le mot de passe</string>
+    <string name="validUsername">Entrez le nom d\'utilisateur valide</string>
+    <string name="validPassword">Le mot de passe doit être supérieure à 8 caractères</string>
+    <string name="enterGender">Sélectionnez le sexe</string>
+    <string name="selectAge">Vous devez être âgé de 12 ans ou plus</string>
+    <string name="enterCorrectHeight">La hauteur doit être comprise entre 50 et 250 cm</string>
+    <string name="enterCorrectWeight">Gewicht moet worden binnen het bereik van 30-200 kg</string>
+    <string name="enterCorrectGlucose">Le glucose doit se situer dans la plage de 3,1-17,5 mmol / l</string>
+    <string name="selectHeight">Sélectionnez la hauteur</string>
+    <string name="selectWeight">Entrer le poids</string>
+    <string name="selectgender">Sélectionnez le sexe</string>
+    <string name="enterYourHeight">Entrez Hauteur</string>
+    <string name="enterYourWeight">Entrez Poids</string>
+    <string name="enterYourAge">Entrez Age</string>
+    <string name="selectGlucose">Entrez glucose</string>
+    <string name="enterGlucose">Entrez glucose</string>
+    <string name="usernameExists">Le nom d\'utilisateur existe déjà</string>
+
+    //signup string
+    <string name="seven">07</string>
+    <string name="doubleZero">00</string>
+    <string name="breakfastText">Déjeuner</string>
+    <string name="timeEight">08:00</string>
+    <string name="eight">08</string>
+    <string name="lunchText">Le déjeuner</string>
+    <string name="dinnerText">Dîner</string>
+    <string name="sleepingText">En train de dormir</string>
+    <string name="othersText">Autres</string>
+    <string name="timeOne">01:00</string>
+    <string name="timeTen">10:00</string>
+    <string name="timeFive">05:00</string>
+    <string name="oneText">01</string>
+    <string name="ten">10</string>
+    <string name="five">05</string>
+
+</resources>

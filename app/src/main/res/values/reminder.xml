@@ -1,0 +1,47 @@
+<resources>
+  // reminder string
+  <string name="index">index</string>
+  <string name="reminderName">reminderName</string>
+  <string name="reminderTime">reminderTime</string>
+  <string name="selectTime">Select Time</string>
+  <string name="timeText">time</string>
+  <string name="hours">hours</string>
+  <string name="minutes">minutes</string>
+  <string name="reminderType">reminderType</string>
+
+  //result string
+  <string name="responseText">response</string>
+  <string name="fromDate">From Date can\'t be greater than to date</string>
+  <string name="dateNotSame">From Date can\'t same as To date</string>
+
+  //bluetooth string
+  <string name="nameText">Name:</string>
+  <string name="addressText">Address:</string>
+
+  //string
+  <string name="trueText">true</string>
+  <string name="falseText">false</string>
+  <string name="amText">AM</string>
+  <string name="pmText">PM</string>
+  <string name="usernameText">username</string>
+  <string name="passwordText">password</string>
+  <string name="usernameAndPassNotMatch">Username and Password doesn\'t match</string>
+  <string name="sureWantToExit">Are you sure you want to exit?</string>
+  <string name="enterCorrectDataInSettings">Enter correct data</string>
+  <string name="couldnotSendMail">Could not send email.Please perform test first!</string>
+  <string name="reminder">Reminder</string>
+  <string name="sureDelete">Are you sure you want to delete record?</string>
+  <string name="MetabolismText">Metabolism exchange value is reference only, not a diagnosis data</string>
+  <string name="healthReference1">Health Reference</string>
+
+  //Excel string
+  <string name="firstSheet">First Sheet</string>
+  <string name="dateExcel">DATE</string>
+  <string name="timeExcel">TIME</string>
+  <string name="glucoseMgExcel">GLUCOSE (mmol/L)</string>
+  <string name="glucosemg">GLUCOSE (mg/dl)</string>
+  <string name="pulseExcel">PULSE</string>
+  <string name="spo2Excel">SpO2</string>
+  <string name="hemoglobinGExcel">HEMOGLOBIN (g/L)</string>
+  <string name="bloodFlowExcel">BLOOD FLOW</string>
+</resources>

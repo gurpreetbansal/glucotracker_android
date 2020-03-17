@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">Échec de la détection Bluetooth</string>
+    <string name="secureBluetoothParingDoneCorrectly">S\'il vous plaît obtenir l\'appariement Bluetooth est fait correctement</string>
+    <string name="dontApplyPressure">Se détendre! Ne pas appliquer de pression sur le capteur argenté</string>
+    <string name="temperatureLow">S\'il vous plaît insérez un doigt dans le capteur de clip doigt.\nLa température ambiante est trop basse.Cela peut affecter le résultat</string>
+    <string name="temperatureHigh">S\'il vous plaît insérez un doigt dans le capteur de clip doigt.\nLa température ambiante est élevée.Cela peut affecter le résultat</string>
+    <string name="environmentDry">S\'il vous plaît insérez un doigt dans le capteur de clip doigt.\nLa température ambiante est trop sèche. Cela peut affecter le résultat</string>
+    <string name="humidityHigh">S\'il vous plaît insérez un doigt dans le capteur de clip doigt.\nLa température ambiante est trop humide. Cela peut affecter le résultat</string>
+    <string name="ERBW">Doigt non inséré</string>
+    <string name="ERAD">Mauvaise collecte de données. Veuillez vous détendre sans appuyer sur le capteur.</string>
+    <string name="ERTT">Lors de l\'insertion du doigt, s\'il vous plaît se détendre sans enfoncer le sensor.Please essayer à nouveau, merci !.</string>
+    <string name="fingerTemperatureLow">La température du doigt est faible. Cela peut affecter le résultat</string>
+    <string name="fingerTemperatureHigh">La température du doigt est élevée. Cela peut affecter le résultat.</string>
+    <string name= "ERRO">Doigt retiré</string>
+    <string name= "CCFRCS">Doigt est pas insérée!</string>
+    <string name="deviceOnCharging">Veuillez réinitialiser l\'appareil avant utilisation!</string>
+    <string name="deviceNotFound">Appareil non trouvé</string>
+    <string name="deviceNotResponding">Le périphérique ne répond pas. Veuillez le réinitialiser et réessayer.</string>
+    <string name="deviceBatteryLow">L\'alimentation de l\'appareil est faible. Veuillez le charger avant le test.</string>
+    <string name="checkSensor">Vérifier le capteur.</string>
+    <string name="testResultIncorrect">Le résultat du test est incorrect. Veuillez insérer correctement le doigt.</string>
+    <string name="returenBackInSecond">Retour en arrière dans (compteur) secondes!</string>
+    <string name="deviceDisconnected">Dispositif disonnected!</string>
+    <string name="fingerInserted">Doigt inséré</string>
+    <string name="fingerRemoved">Doigt retiré</string>
+</resources>

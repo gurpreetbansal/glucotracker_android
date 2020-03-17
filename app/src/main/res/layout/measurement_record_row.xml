@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/measurementRecordRow"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/circleImage"
+            android:layout_width="65dp"
+            android:layout_height="65dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <CustomControl.TextViewGothamMedium
+                android:id="@+id/imageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/measurement"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <CustomControl.TextViewGothamBook
+                android:id="@+id/unitText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageText"
+                android:layout_centerHorizontal="true"
+                android:text="@string/mMgdlText"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/imageLayout"
+        android:text="@string/date" />
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/recordData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/imageLayout"
+        android:text="@string/recordData"
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recordData"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/imageLayout">
+
+        <ImageView
+            android:id="@+id/tabletImageView"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tablet" />
+
+        <CustomControl.TextViewGothamBook
+            android:id="@+id/medicationRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+
+            android:layout_toRightOf="@id/tabletImageView"
+            android:text="@string/biguanide"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/deleteRecord"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/delete_record" />
+</RelativeLayout>

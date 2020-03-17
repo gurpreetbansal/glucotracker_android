@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">藍牙偵測失敗</string>
+    <string name="secureBluetoothParingDoneCorrectly">請確保藍牙配對正確</string>
+    <string name="dontApplyPressure">放輕鬆! \n 勿重壓感測器</string>
+    <string name="temperatureLow">請將手指伸入指夾感測器\n環境溫度太低,可能會影響測試結果, 謝謝!</string>
+    <string name="temperatureHigh">請將手指伸入指夾感測器\n環境溫度太高,可能會影響測試結果, 謝謝!</string>
+    <string name="environmentDry">請將手指伸入指夾感測器\n環境太乾燥,可能會影響測試結果, 謝謝!</string>
+    <string name="humidityHigh">請將手指伸入指夾感測器\n環境溼度太高, 可能會影響測試結果, 謝謝!";</string>
+    <string name="ERBW">手指未正確伸入!</string>
+    <string name="ERAD">測試資料有誤, 請重新測試並輕放手指勿下壓</string>
+    <string name="ERTT">當插入手指，請放鬆，而不按下傳感器。請再試一次，謝謝！</string>
+    <string name="fingerTemperatureLow">手指溫度太低, 可能會影響測試結果</string>
+    <string name="fingerTemperatureHigh">手指溫度太高, 可能會影響測試結果</string>
+    <string name= "ERRO">手指已移開!</string>
+    <string name= "CCFRCS">手指未伸入!</string>
+    <string name="deviceOnCharging">使用前請重開設備!</string>
+    <string name="deviceNotFound">未找到設備</string>
+    <string name="deviceNotResponding">設備沒有回應, 請重開再試一次, 謝謝!</string>
+    <string name="deviceBatteryLow">設備電源低。請在測試前充電。</string>
+    <string name="checkSensor">請檢查感測器</string>
+    <string name="testResultIncorrect">測試數值不正確, 請重新測試, 將手指伸到底並放輕鬆,勿下壓感測器</string>
+    <string name="returenBackInSecond">返回（計數器）秒！</string>
+    <string name="deviceDisconnected">設備未連結!</string>
+    <string name="fingerInserted">手指已伸入</string>
+    <string name="fingerRemoved">手指已移開!</string>
+</resources>

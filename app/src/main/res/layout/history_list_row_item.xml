@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+<LinearLayout
+    android:id="@+id/blankRowView"
+    android:layout_width="65dp"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/dateValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:background="@drawable/button_shape_transparent"
+        android:gravity="center" />
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/timeValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:background="@drawable/button_shape_transparent"
+        android:gravity="center" />
+
+    <CustomControl.TextViewGothamBook
+        android:id="@+id/resultValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:background="@drawable/button_shape_transparent"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/dietView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:background="@drawable/button_shape_transparent"
+        android:gravity="center">
+
+        <CustomControl.TextViewGothamBook
+            android:id="@+id/dietTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/dietValueImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/medicineView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_shape_transparent">
+
+        <ImageView
+            android:id="@+id/medicineValueImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/deleteView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="@drawable/button_shape_transparent">
+
+        <CustomControl.TextViewGothamBook
+            android:id="@+id/deleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/deleteValueImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+</LinearLayout>
+</LinearLayout>

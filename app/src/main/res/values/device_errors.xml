@@ -1,0 +1,26 @@
+<resources>
+    <string name="bluetoothDetectionFailed">Bluetooth Detection Failed</string>
+    <string name="secureBluetoothParingDoneCorrectly">Please secure bluetooth pairing is done correctly</string>
+    <string name="dontApplyPressure">Relax! Don\'t apply pressure on silver sensor</string>
+    <string name="temperatureLow">Please insert finger into finger clip sensor.\n\nEnvironment Temp is too low for test.It may affects result!</string>
+    <string name="temperatureHigh">Please insert finger into finger clip sensor.\n\nEnvironment Temp is too high for test. It may affects result!</string>
+    <string name="environmentDry">Please insert finger into finger clip sensor.\n\nEnvironment is too dry for test. It may affects result!</string>
+    <string name="humidityHigh">Please insert finger into finger clip sensor.\n\nEnvironment Humidity is too high for test. It may affects result!</string>
+    <string name="ERBW">Finger is not properly inserted!</string>
+    <string name="ERAD">Wrong data collection,may be probe is not inserted properly.</string>
+    <string name="ERTT">When inserting finger,please relax without pressing down the sensor.please try again,thank you!</string>
+    <string name="fingerTemperatureLow">Finger temp is too low. This will affect results.</string>
+    <string name="fingerTemperatureHigh">Finger temp is too high. This will affect results.</string>
+    <string name= "ERRO">Finger Removed!</string>
+    <string name= "CCFRCS">Finger is not inserted!</string>
+    <string name="deviceOnCharging">Please reset the device before Use!</string>
+    <string name="deviceNotFound">Device not found</string>
+    <string name="deviceNotResponding">Device is not Responding for test. Please Reset the device and try again!</string>
+    <string name="deviceBatteryLow">Device power is low. Please charge it before test.</string>
+    <string name="checkSensor">Check sensors</string>
+    <string name="testResultIncorrect">Test results are incorrect. Please insert your finger correctly</string>
+    <string name="returenBackInSecond">Return back in (counter) seconds!</string>
+    <string name="deviceDisconnected">Device disonnected!</string>
+    <string name="fingerInserted">Finger Inserted</string>
+    <string name="fingerRemoved">Finger Removed!</string>
+</resources>
