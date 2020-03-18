@@ -120,8 +120,6 @@ public class LoginActivity extends Activity {
         for (UserName userNameObj : userNameArrayList) {
             if (userNameObj.getKey().equals(key)) {
                 userName = userNameObj.getValue();
-
-
                 break;
             }
         }
