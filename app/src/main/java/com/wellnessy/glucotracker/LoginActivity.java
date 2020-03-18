@@ -124,6 +124,7 @@ public class LoginActivity extends Activity {
             }
         }
         return userName;
+
     }
 
     @OnClick(R.id.show)
