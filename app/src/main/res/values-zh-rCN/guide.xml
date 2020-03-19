@@ -16,7 +16,7 @@
 
     //Alarm Manager string
 
-    <string name="alarmVigoriDiary">优活日记</string>
+    <string name="alarmVigoriDiary">葡萄糖追踪器</string>
     <string name="yourReminderIsSet">您的提醒已设置</string>
 
 </resources>

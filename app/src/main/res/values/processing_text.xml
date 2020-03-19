@@ -15,7 +15,7 @@
     <string name="relax">Relax !</string>
     <string name="whenAllResultFound">when all results found 0 :</string>
     <string name="Device_Connection_Failure">Device Connection Failure</string>
-    <string name ="Device_power_on">Please secure device power is on.</string>
+    <string name ="Device_power_on">Please ensure device power is on.</string>
     <string name="pleaseOnTheBluetooth">Please turn on the bluetooth.</string>
     <string name="yesText">Yes</string>
     <string name="noText">No</string>

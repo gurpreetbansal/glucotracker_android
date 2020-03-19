@@ -15,7 +15,7 @@
     <string name="relax">Se détendre !</string>
     <string name="whenAllResultFound">lorsque tous les résultats trouvés 0 :</string>
     <string name="Device_Connection_Failure">Dispositif Echec de la connexion</string>
-    <string name ="Device_power_on">S\'il vous plaît assurer la puissance de l\'appareil est sur.</string>
+    <string name ="Device_power_on">Veuillez vous assurer que l\'appareil est sous tension.</string>
     <string name="pleaseOnTheBluetooth">Veuillez activer le bluetooth.</string>
     <string name="yesText">Oui</string>
     <string name="noText">Non</string>

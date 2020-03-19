@@ -149,6 +149,7 @@ public class BluetoothConnectedDeviceCV extends RelativeLayout {
         super(context, attrs, defStyleAttr);
     }
 
+
     public void intializeViews(Activity context) {
         this.ctx = context;
         LayoutInflater inflater = (LayoutInflater) context

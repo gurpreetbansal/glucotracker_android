@@ -24,12 +24,7 @@ public class SplashActivity extends Activity {
     private void startTimer() {
 
         int SPLASH_TIME_OUT = 2000;
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startApp();
-            }
-        }, SPLASH_TIME_OUT);
+        new Handler().postDelayed(() -> startApp(), SPLASH_TIME_OUT);
     }
 
     private void startApp() {

@@ -15,7 +15,7 @@
     <string name="relax">Ontspannen!</string>
     <string name="whenAllResultFound">wanneer alle resultaten gevonden 0:</string>
     <string name="Device_Connection_Failure">Bluetooth verbindingen detecteren mislukt</string>
-    <string name ="Device_power_on">Gelieve veilig apparaat is ingeschakeld.</string>
+    <string name ="Device_power_on">Zorg ervoor dat het apparaat is ingeschakeld.</string>
     <string name="pleaseOnTheBluetooth">Schakel op het bluetooth.</string>
     <string name="yesText">Ja</string>
     <string name="noText">Nee</string>
