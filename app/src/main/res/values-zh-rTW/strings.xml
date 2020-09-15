@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">葡萄糖追踪器</string>
+    <string name="app_name">iGlucoTracker</string>
     <string name="userName">用戶名</string>
     <string name="password">密碼</string>
     <string name="show">顯示</string>

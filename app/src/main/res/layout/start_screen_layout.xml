@@ -39,14 +39,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="30dp"
                 android:background="@drawable/start_shape"
                 android:orientation="vertical">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/purple_shape">
 
                     <CustomControl.TextViewGothamMedium
@@ -66,11 +66,13 @@
                     android:id="@+id/textViewGothamBook"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_gravity="start|center"
                     android:layout_marginBottom="5dp"
                     android:background="@drawable/button_transparent"
-                    android:gravity="center"
+                    android:gravity="start|center"
                     android:padding="15dp"
+                    android:lineSpacingExtra="5dp"
+                    android:lineSpacingMultiplier="1.2"
                     android:text="@string/thisProductNotAMedicalDevice"
                     android:textColor="@color/red"
                     android:textSize="18sp" />
@@ -83,7 +85,7 @@
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/button_shape_green"
                 android:text="@string/acceptButtonText"

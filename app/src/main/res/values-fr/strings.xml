@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GlucoTracker</string>
+    <string name="app_name">iGlucoTracker</string>
     <string name="userName">Nom d\'utilisateur</string>
     <string name="password">Mot de passe</string>
     <string name="show">Montrer</string>

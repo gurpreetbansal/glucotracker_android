@@ -1,7 +1,6 @@
 <resources>
-    <string name="usageNotice">Avis d\'utilisation de Gluco Tracker</string>
-    <string name="fulldayOfVitality">Une journée complète de vitalité commence par la surveillance de l\'auto-santé.</string>
-    <string name="thisProductNotAMedicalDevice">Ces données de surveillance servent uniquement à surveiller votre état quotidien et ne peuvent pas remplacer la visite, les conseils, le diagnostic ou le traitement recommandé par le médecin. \n\n En cas d\'anomalies numériques de la gestion de la santé, veuillez immédiatement vous rendre à l\'hôpital pour une détection professionnelle.
-</string>
-    <string name="acceptButtonText">Acceptez</string>
+    <string name="usageNotice">GlucoTracker \nAvis d\'utilisation</string>
+    <string name="fulldayOfVitality">Une journée entière de vitalité commence par la surveillance de l\'auto-santé.</string>
+    <string name="thisProductNotAMedicalDevice">Ces données de suivi servent uniquement à surveiller votre état quotidien et ne peuvent pas remplacer la visite du médecin, les conseils, le diagnostic ou le traitement recommandé.\n\nEn cas d\'anomalie numérique de la gestion de la santé, veuillez vous rendre immédiatement à l\'hôpital pour un dépistage professionnel.</string>
+    <string name="acceptButtonText">Accepter</string>
 </resources>

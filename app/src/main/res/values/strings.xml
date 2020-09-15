@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GlucoTracker</string>
+    <string name="app_name">iGlucoTracker</string>
     <string name="userName">Username</string>
     <string name="password">Password</string>
     <string name="show">Show</string>
@@ -84,10 +84,10 @@
     <string name="measureText">100.0</string>
     <string name="bfv">Blood Flow Velocity</string>
     <string name="confirmUpdate">Confirm Update</string>
-    <string name="registerSuccessfully">Register Successfully...!!!</string>
-    <string name="registerAgain">Register Again...</string>
-    <string name="loginSuccessfully">Login Successfully...!!!</string>
-    <string name="loginAgain">Username or Password doesn\'t match...</string>
+    <string name="registerSuccessfully">Registration successful</string>
+    <string name="registerAgain">Register Again.</string>
+    <string name="loginSuccessfully">Login successful</string>
+    <string name="loginAgain">Username or Password doesn\'t match.</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="personNameText">Peter Robins</string>
     <string name="weightValueText">56 kgs</string>

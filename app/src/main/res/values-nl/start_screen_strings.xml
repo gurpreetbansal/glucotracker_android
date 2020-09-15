@@ -1,8 +1,0 @@
-<resources>
-    <string name="usageNotice">Kennisgeving over het gebruik van Gluco Tracker</string>
-    <string name="fulldayOfVitality">Een dag vol vitaliteit begint met zelfmonitoring.</string>
-    <string name="thisProductNotAMedicalDevice">Deze controlegegevens zijn alleen bedoeld om uw dagelijkse status te controleren en kunnen het bezoek van de arts, counseling, diagnose of aanbevolen behandeling niet vervangen. \ N \ n
-Als de gezondheidsmanagement numerieke afwijkingen heeft, ga dan onmiddellijk naar het ziekenhuis voor professionele detectie.
-</string>
-    <string name="acceptButtonText">Accepteren</string>
-</resources>

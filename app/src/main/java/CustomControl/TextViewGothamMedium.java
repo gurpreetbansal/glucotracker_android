@@ -22,7 +22,7 @@ public class TextViewGothamMedium extends TextView {
         setTypeface(context);
     }
     private void setTypeface(Context context) {
-        setTypeface(Typeface.createFromAsset(context.getAssets(), "Font/gotham-medium_1.ttf"));
+        //setTypeface(Typeface.createFromAsset(context.getAssets(), "Font/gotham-medium_1.ttf"));
 
     }
 }

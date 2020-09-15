@@ -1,11 +1,6 @@
 <resources>
-    <string name="usageNotice">Gluco Tracker使用注意事项</string>
-    <string name="fulldayOfVitality">充满生命力的一天\n
-从自我健康监测开始。
-</string>
-    <string name="thisProductNotAMedicalDevice">
-        这些监视数据仅用于监视您的日常状态，不能代替医生的就诊，咨询，诊断或推荐的治疗方法。\ n \ n
-如果健康管理数字异常，请立即去医院进行专业检测。
-    </string>
+    <string name="usageNotice">GlucoTracker\n 使用须知</string>
+    <string name="fulldayOfVitality">全天的活力从监测自我的健康开始</string>
+    <string name="thisProductNotAMedicalDevice">此监测数据仅用于监测您的日常状态，不能代替医生的就诊、咨询、诊断或治疗建议。\n\n如果发现健康管理数值异常，请立即到医院进行专业检测。</string>
     <string name="acceptButtonText">接受</string>
 </resources>
